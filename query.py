@@ -468,4 +468,4 @@ def get_specialized_classes():
     return "Nenhuma Classe Especializada"
 
 
-#print(get_vosv("ExportedView"))
+print(get_vosv("ExportedView"))
