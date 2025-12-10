@@ -1,4 +1,5 @@
-import csv
+import os
+import csv, json
 import pandas as pd
 from crewai.tools import tool
 
@@ -61,6 +62,36 @@ def get_data_schema_from_csv(csv_path:str):
 		raise Exception(f"Error reading CSV: {e}")
 	
 
+def load_json_data(filename:str):
+	"""Retrieve schema whose fields are active
+
+	Paremeters
+	---
+	filename
+		name of file with path
+
+	Returns
+	---
+	filtered_data
+		schema with active fields
+	"""
+	module_dir = os.path.dirname(__file__)
+	filepath = os.path.join(module_dir, filename)
+	
+	try:
+		with open(filepath, 'r') as f:
+			data = json.load(f)
+			filtered_data = [item for item in data if item.get("isActive") == True]
+		return str(filtered_data)
+	except FileNotFoundError:
+		print(f"Error: JSON file '{filename}' not found at '{filepath}'")
+		return None
+	except json.JSONDecodeError:
+		print(f"Error: Invalid JSON format in '{filename}'")
+		return None
+	
+
+	
 ######################################################
 ################## INTEGRATION TEAM ##################
 ######################################################

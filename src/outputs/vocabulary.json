@@ -1,0 +1,375 @@
+{
+  "Contract": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "Contract",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "FOAF",
+      "namespace": "http://xmlns.com/foaf/0.1/",
+      "term": "Document",
+      "preferredPrefix": "foaf",
+      "isActive": false
+    }
+  ],
+  "PublicOrganization": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "Organization",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "Publisher",
+      "preferredPrefix": "dc",
+      "isActive": false
+    }
+  ],
+  "ManagementUnit": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "Organization",
+      "preferredPrefix": "schema",
+      "isActive": false
+    },
+    {
+      "vocabulary": "FOAF",
+      "namespace": "http://xmlns.com/foaf/0.1/",
+      "term": "Group",
+      "preferredPrefix": "foaf",
+      "isActive": true
+    }
+  ],
+  "Supplier": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "Person",
+      "preferredPrefix": "schema",
+      "isActive": false
+    },
+    {
+      "vocabulary": "FOAF",
+      "namespace": "http://xmlns.com/foaf/0.1/",
+      "term": "Person",
+      "preferredPrefix": "foaf",
+      "isActive": true
+    }
+  ],
+  "hasPublicOrganization": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "publisher",
+      "preferredPrefix": "schema",
+      "isActive": false
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "publisher",
+      "preferredPrefix": "dc",
+      "isActive": false
+    },
+    {
+      "vocabulary": "Example",
+      "namespace": "http://example.org/ontology#",
+      "term": "hasPublicOrganization",
+      "preferredPrefix": "ex",
+      "isActive": true
+    }
+  ],
+  "hasManagementUnit": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "department",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "FOAF",
+      "namespace": "http://xmlns.com/foaf/0.1/",
+      "term": "group",
+      "preferredPrefix": "foaf",
+      "isActive": false
+    }
+  ],
+  "hasSupplier": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "supplier",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "FOAF",
+      "namespace": "http://xmlns.com/foaf/0.1/",
+      "term": "maker",
+      "preferredPrefix": "foaf",
+      "isActive": false
+    }
+  ],
+  "codigoOrgao": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "identifier",
+      "preferredPrefix": "dc",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "identifier",
+      "preferredPrefix": "schema",
+      "isActive": false
+    }
+  ],
+  "nomeOrgao": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "title",
+      "preferredPrefix": "dc",
+      "isActive": false
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "name",
+      "preferredPrefix": "schema",
+      "isActive": true
+    }
+  ],
+  "codigoUnidadeGestora": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "identifier",
+      "preferredPrefix": "dc",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "identifier",
+      "preferredPrefix": "schema",
+      "isActive": false
+    }
+  ],
+  "nomeUnidadeGestora": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "title",
+      "preferredPrefix": "dc",
+      "isActive": false
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "name",
+      "preferredPrefix": "schema",
+      "isActive": true
+    }
+  ],
+  "numeroContrato": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "identifier",
+      "preferredPrefix": "dc",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "identifier",
+      "preferredPrefix": "schema",
+      "isActive": false
+    }
+  ],
+  "niFornecedor": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "identifier",
+      "preferredPrefix": "dc",
+      "isActive": false
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "identifier",
+      "preferredPrefix": "schema",
+      "isActive": false
+    },
+     {
+      "vocabulary": "Example",
+      "namespace": "http://example.org/ontology#",
+      "term": "cpfcnpj",
+      "preferredPrefix": "ex",
+      "isActive": true
+    }
+  ],
+  "nomeRazaoSocialFornecedor": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "title",
+      "preferredPrefix": "dc",
+      "isActive": false
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "name",
+      "preferredPrefix": "schema",
+      "isActive": false
+    },
+    {
+      "vocabulary": "Example",
+      "namespace": "http://example.org/ontology#",
+      "term": "supplierName",
+      "preferredPrefix": "ex",
+      "isActive": true
+    }
+  ],
+  "processo": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "identifier",
+      "preferredPrefix": "dc",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "identifier",
+      "preferredPrefix": "schema",
+      "isActive": false
+    }
+  ],
+  "objeto": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "description",
+      "preferredPrefix": "dc",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "description",
+      "preferredPrefix": "schema",
+      "isActive": false
+    }
+  ],
+  "dataVigenciaInicial": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "date",
+      "preferredPrefix": "dc",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "startDate",
+      "preferredPrefix": "schema",
+      "isActive": false
+    }
+  ],
+  "dataVigenciaFinal": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "date",
+      "preferredPrefix": "dc",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "endDate",
+      "preferredPrefix": "schema",
+      "isActive": false
+    }
+  ],
+  "valorGlobal": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "price",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "extent",
+      "preferredPrefix": "dc",
+      "isActive": false
+    }
+  ],
+  "valorAcumulado": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "price",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "extent",
+      "preferredPrefix": "dc",
+      "isActive": false
+    }
+  ],
+  "totalDespesasAcessorias": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "price",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "extent",
+      "preferredPrefix": "dc",
+      "isActive": false
+    }
+  ],
+  "numeroControlePncpContrato": [
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "identifier",
+      "preferredPrefix": "dc",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "identifier",
+      "preferredPrefix": "schema",
+      "isActive": false
+    }
+  ]
+}

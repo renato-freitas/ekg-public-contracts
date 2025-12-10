@@ -1,11 +1,35 @@
-import os
-import signal
+from pprint import pprint
+from workflows import publishing_team
+from tools import load_json_data
+# from data import extracted_schema
 
-if os.name == 'posix':  # This means it's a Unix-like system
-   # Code that uses signal.SIGHUP
-   signal.signal(signal.SIGHUP, some_handler_function)
-else:
-   # Alternative code for Windows, or simply omit SIGHUP-related logic
-   print("SIGHUP is not available on Windows. Implementing alternative logic or ignoring.")
-   # You might use other mechanisms for process control or shutdown on Windows,
-   # such as event handling or a different type of shutdown signal if applicable.
+
+
+
+######################################
+# Testando a Extração de Ontologia
+######################################
+# inputs = {
+#    'csv_path': "D:\Doutorado\datasets\contratos\csv_contratos_cgu\contratos_160051.csv",
+#    'dataset_schema': extracted_schema,
+#    'dataset_description': "A dataset of contracts signed between public organizations, the management units of these organizations, and suppliers."
+# }
+
+
+
+
+######################################
+# Testando a Sugestão de Vocabulário
+######################################
+# Usage within your module
+extracted_schema = load_json_data(filename="outputs/extracted_schema.json")
+if extracted_schema:
+	# pprint(extracted_schema)
+   inputs = {
+      'dataset_schema': extracted_schema,
+      'dataset_description': "A dataset of contracts signed between public organizations, the management units of these organizations, and suppliers."
+   }
+
+   # Execution
+   result = publishing_team.kickoff(inputs=inputs)
+   print(result)

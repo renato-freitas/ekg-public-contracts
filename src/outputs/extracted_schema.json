@@ -1,0 +1,19 @@
+[
+	{"name": "codigoOrgao",             	"dtype": "int64", 		   "isActive": true},
+	{"name": "nomeOrgao",             		"dtype": "object",		   "isActive": true},
+	{"name": "codigoUnidadeGestora",      	"dtype": "int64", 		   "isActive": true},
+	{"name": "nomeUnidadeGestora",        	"dtype": "object",		   "isActive": true},
+	{"name": "numeroContrato",            	"dtype": "object",		   "isActive": true},
+	{"name": "niFornecedor",             	"dtype": "int64", 		   "isActive": true},
+	{"name": "nomeRazaoSocialFornecedor", 	"dtype": "object",		   "isActive": true},
+	{"name": "processo",             		"dtype": "object",		   "isActive": true},
+	{"name": "objeto",             			"dtype": "object",		   "isActive": true},
+	{"name": "dataVigenciaInicial",       	"dtype": "datetime64[ns]", "isActive": true},
+	{"name": "dataVigenciaFinal",         	"dtype": "datetime64[ns]", "isActive": true},
+	{"name": "valorGlobal",               	"dtype": "float64", 			"isActive": true},
+	{"name": "numeroParcelas",            	"dtype": "int64",   			"isActive": false},
+	{"name": "valorParcela",              	"dtype": "float64", 			"isActive": false},
+	{"name": "valorAcumulado",            	"dtype": "float64", 			"isActive": true},
+	{"name": "totalDespesasAcessorias",   	"dtype": "float64", 			"isActive": true},
+	{"name": "numeroControlePncpContrato",	"dtype": "float64", 			"isActive": true}
+]
