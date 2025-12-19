@@ -33,3 +33,20 @@ if extracted_schema:
    # Execution
    result = publishing_team.kickoff(inputs=inputs)
    print(result)
+
+
+
+# Baseado no contexto da apliação, a LLM pode recuperar apenas as tabelas e propriedades adequadas.
+# - Aqui o usuário explica o que quer no sistema. 
+# - Ex: endereço da SEFAZ.
+# - Entra do usuário deve ser suficiente. Agente deve retornar que não conseguiu encontrar nada.
+# Tem que ficar evidente para o agente a entrada. Isso ajuda na escolha do vocabulário final.
+# Focar em um sistema conversacional.
+# Na qualidade passar um contexto da aplicação.
+
+# ====
+
+# Ganho no auxílio da construção do contexto de entrada.
+# O LLM pode ProcessLookupError
+# Preciso construir um mshup disso e disso (o llm auto completa) numa construção guiada 
+# uso o conhecimento que tem o EKG

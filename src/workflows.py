@@ -7,9 +7,10 @@ from task import extract_csv_schema_task, dataset_ontology_generation, analyze_o
 ####################################################
 publishing_team = Crew(
 	agents=[
-      # data_schema_agent,
-      ontology_agent,
-      vocabulary_agent
+      # data_schema_agent, # recebe uma descrição do || no retorno do esquema o usuário faça uma validação.
+      # Uma conversa
+      ontology_agent,      # recebe o esquema extraído
+      vocabulary_agent     # recebe a ontologia | interversão humana
    ],
 	tasks=[
       # extract_csv_schema_task, 
@@ -21,14 +22,26 @@ publishing_team = Crew(
 
 
 
+
+
 ######################################################
 ################## INTEGRATION TEAM ##################
 ######################################################
-
+# Linkset View
 
 
 
 
 ####################################################
 ################## FUSION TEAM #####################
+####################################################
+
+
+
+
+
+
+
+####################################################
+################# MASHUPS TEAM #####################
 ####################################################

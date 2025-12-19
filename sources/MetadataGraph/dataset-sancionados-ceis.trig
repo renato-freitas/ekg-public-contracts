@@ -1,0 +1,9 @@
+
+<http://www.ontotext.com/explicit> {
+  <http://www.arida.ufc.br/resource/dataset/b0c3cc8f-3f74-4c99-876c-c19acfb9a23b> a
+      <http://www.w3.org/ns/dcat#Dataset>;
+    <http://purl.org/dc/elements/1.1/description> "Apresenta a relação de empresas e pessoas físicas que sofreram sanções que implicaram a restrição de participar de licitações ou de celebrar contratos com a Administração Pública."@pt-BR;
+    <http://www.arida.ufc.br/VEKG#hasDeltaTable> <http://www.arida.ufc.br/resource/delta-table/c1ddd6e9-5665-42fa-970b-3c3404d7a5c2>;
+    <http://www.arida.ufc.br/VEKG#hasOrganization> <http://www.arida.ufc.br/resource/organization/513653f3-896f-4191-8996-d85bc4f88f2d>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "sancionados-ceis"@pt-BR .
+}

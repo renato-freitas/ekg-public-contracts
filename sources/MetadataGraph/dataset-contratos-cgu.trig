@@ -1,0 +1,14 @@
+
+<http://www.ontotext.com/explicit> {
+  <http://www.arida.ufc.br/resource/dataset/7318e8d1-ab4a-454a-a75c-49b3acaef24f> a
+      <http://www.w3.org/ns/dcat#Dataset>;
+    <http://purl.org/dc/elements/1.1/description> "Conjunto de dados dos contratos de 2015 registrados na CGU"@pt-BR;
+    <http://www.arida.ufc.br/VEKG#hasDeltaTable> <http://www.arida.ufc.br/resource/delta-table/e455766e-d9b3-4d3f-b788-10244d0eb942>;
+    <http://www.arida.ufc.br/VEKG#hasOrganization> <http://www.arida.ufc.br/resource/organization/a20aeea3-ec31-497d-b186-ca7e093b6a8f>;
+    <http://www.w3.org/2000/01/rdf-schema#label> "contratos-cgu"@pt-BR .
+}
+
+<https://graphdb.arida.site/repositories/EKG_LAGO/rdf-graphs/KG_METADATA> {
+  <http://www.arida.ufc.br/resource/dataset/7318e8d1-ab4a-454a-a75c-49b3acaef24f> <http://purl.org/dc/terms/hasVersion>
+      <http://www.arida.ufc.br/resource/metadata/file/6a30c9a9-c841-4997-b18d-dea69a8ec249> .
+}

@@ -3,3 +3,5 @@
 .bsb.lock
 .env
 ./env
+.venv
+./venv
