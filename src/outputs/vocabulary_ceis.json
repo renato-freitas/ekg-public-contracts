@@ -1,0 +1,226 @@
+{
+  "SanctionedEntity": [
+    {
+      "vocabulary": "FOAF",
+      "namespace": "http://xmlns.com/foaf/0.1/",
+      "term": "Agent",
+      "preferredPrefix": "foaf",
+      "isActive": false
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "Organization",
+      "preferredPrefix": "schema",
+      "isActive": true
+    }
+  ],
+  "SanctioningAuthority": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "GovernmentOrganization",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "FOAF",
+      "namespace": "http://xmlns.com/foaf/0.1/",
+      "term": "Organization",
+      "preferredPrefix": "foaf",
+      "isActive": false
+    }
+  ],
+  "Sanction": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "Event",
+      "preferredPrefix": "schema",
+      "isActive": false
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "Event",
+      "preferredPrefix": "dct",
+      "isActive": false
+    }
+  ],
+  "hasSanctioningAuthority": [
+    {
+      "vocabulary": "FOAF",
+      "namespace": "http://xmlns.com/foaf/0.1/",
+      "term": "maker",
+      "preferredPrefix": "foaf",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "foundingLocation",
+      "preferredPrefix": "schema",
+      "isActive": false
+    }
+  ],
+  "hasSanction": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "result",
+      "preferredPrefix": "schema",
+      "isActive": false
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "conformsTo",
+      "preferredPrefix": "dct",
+      "isActive": false
+    }
+  ],
+  "CNPJCPF": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "identifier",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "FOAF",
+      "namespace": "http://xmlns.com/foaf/0.1/",
+      "term": "id",
+      "preferredPrefix": "foaf",
+      "isActive": false
+    }
+  ],
+  "name": [
+    {
+      "vocabulary": "FOAF",
+      "namespace": "http://xmlns.com/foaf/0.1/",
+      "term": "name",
+      "preferredPrefix": "foaf",
+      "isActive": false
+    },
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "name",
+      "preferredPrefix": "schema",
+      "isActive": true
+    }
+  ],
+  "state": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "addressRegion",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "extent",
+      "preferredPrefix": "dct",
+      "isActive": false
+    }
+  ],
+  "sanctionCategory": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "category",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "type",
+      "preferredPrefix": "dct",
+      "isActive": false
+    }
+  ],
+  "initialDate": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "startDate",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "issued",
+      "preferredPrefix": "dct",
+      "isActive": false
+    }
+  ],
+  "finalDate": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "endDate",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "valid",
+      "preferredPrefix": "dct",
+      "isActive": false
+    }
+  ],
+  "publicationDate": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "datePublished",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "issued",
+      "preferredPrefix": "dct",
+      "isActive": false
+    }
+  ],
+  "fineValue": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "priceSpecification",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "FOAF",
+      "namespace": "http://xmlns.com/foaf/0.1/",
+      "term": "tipjarAmount",
+      "preferredPrefix": "foaf",
+      "isActive": false
+    }
+  ],
+  "quantity": [
+    {
+      "vocabulary": "Schema.org",
+      "namespace": "https://schema.org/",
+      "term": "quantity",
+      "preferredPrefix": "schema",
+      "isActive": true
+    },
+    {
+      "vocabulary": "Dublin Core",
+      "namespace": "http://purl.org/dc/terms/",
+      "term": "extent",
+      "preferredPrefix": "dct",
+      "isActive": false
+    }
+  ]
+}

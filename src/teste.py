@@ -4,6 +4,10 @@ from tools import load_json_data
 # from data import extracted_schema
 
 
+######################################
+### Testando a Extração de Esquema ###
+######################################
+# O arquivo algo é passado na diretamenta na ferramenta
 
 
 ######################################
@@ -16,23 +20,29 @@ from tools import load_json_data
 # }
 
 
+######################################################
+# Testando a Extração de Ontologia da Segunda Fontes
+######################################################
+inputs = {
+   'csv_path': "./sources/CEIS/sancoes.csv",
+   'dataset_schema': None,
+   'dataset_description': "A dataset of contracts signed between public organizations, the management units of these organizations, and suppliers."
+}
 
 
 ######################################
 # Testando a Sugestão de Vocabulário
 ######################################
 # Usage within your module
-extracted_schema = load_json_data(filename="outputs/extracted_schema.json")
-if extracted_schema:
-	# pprint(extracted_schema)
-   inputs = {
-      'dataset_schema': extracted_schema,
-      'dataset_description': "A dataset of contracts signed between public organizations, the management units of these organizations, and suppliers."
-   }
+# extracted_schema = load_json_data(filename="outputs/extracted_schema.json")
+# if extracted_schema:
+#    inputs = {
+#       'dataset_schema': extracted_schema,
+#       'dataset_description': "A dataset of contracts signed between public organizations, the management units of these organizations, and suppliers."
+#    }
 
-   # Execution
-   result = publishing_team.kickoff(inputs=inputs)
-   print(result)
+result = publishing_team.kickoff(inputs=inputs)
+print(result)
 
 
 

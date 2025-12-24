@@ -1,0 +1,13 @@
+[
+  { "name": "CNPJ/CPF da Pessoa ou Empresa Sancionada", "dtype": "object",         "isActive": true},
+  { "name": "Nome da Pessoa ou Empresa Sancionada",     "dtype": "object",         "isActive": true},
+  { "name": "Cadastro",                                 "dtype": "object",         "isActive": false},
+  { "name": "UF sancionado",                            "dtype": "object",         "isActive": true},
+  { "name": "Nome do Órgão Sancionador",                "dtype": "object",         "isActive": true},
+  { "name": "Categoria sanção",                         "dtype": "object",         "isActive": true},
+  { "name": "Data Inicial da Sanção",                   "dtype": "datetime64[ns]", "isActive": true},
+  { "name": "Data Final da Sanção",                     "dtype": "datetime64[ns]", "isActive": true},
+  { "name": "Data Publicação",                          "dtype": "object",         "isActive": true},
+  { "name": "Valor multa",                              "dtype": "int64",          "isActive": true},
+  { "name": "Quantidade",                               "dtype": "float64",        "isActive": true}
+]

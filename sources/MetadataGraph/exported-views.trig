@@ -64,7 +64,7 @@
 
 
 
-<https://graphdb.arida.site/repositories/EKG_CONTRACTS/rdf-graphs/KG_METADATA> {
+<https://graphdb.arida.site/repositories/ekg_public_contracts/rdf-graphs/KG_METADATA> {
 
 	###############################################
 	###  INSTANCIANDO AS VISÕES EXPORTADAS      ###
@@ -92,13 +92,8 @@
 	.
 	####################################################################
 	###         INSTANCIANDO AS ESPECIFICAÇÕES                       ###
+	###         (ExportedView)-vekg:hasSpecification->(EVSpec)       ###
 	####################################################################
-	# <SVSpec/EKG_MUSICA_BR> a vekg:DataViewSpecification, vekg:SemanticViewSpecification ;
-	# 	rdfs:label "Semantic View Specification of EKG_MUSICA_BR"@en, 
-	# 		"Especificação da Visão Semântica do EKG_MUSICA_BR"@pt;
-	# 	vekg:createdAt "2024-11-14 15:20:14.072914" ;
-	# 	vekg:hasSemanticView <SV/SV_Music>
-	# .
 	<EVSpec/contratos_cgu> a vekg:ExportedViewSpecification ;
 		rdfs:label "EV Contratos_cgu Specification"@en, 
 			"Especificação da VE Contratos_cgu"@pt;
@@ -106,9 +101,9 @@
 			"Contém os metadados dos artefatos que compõem a visão exportada contratos_cgu."@pt;
 		vekg:createdAt "2025-11-22 08:11:14.072914" ;
 		vekg:hasDataSource <DataAsset/contratos_cgu> ;
-		vekg:hasOntology <Ontology/contratos_cgu> ;
+		vekg:hasOntology <ontology/contratos_cgu> ;
 		vekg:hasMappings <Mappings/contratos_cgu> ;
-		vekg:isPartOf <SVSpec/EKG_PUBLIC_CONTRACT>
+		vekg:isPartOf <SVSpec/ekg_public_contract>
 	.
 	<EVSpec/sancionados_ceis> a vekg:ExportedViewSpecification ;
 		rdfs:label "EV_sancionados_ceis Specification"@en, 
@@ -117,7 +112,7 @@
 			"Contém as especificações da visão semântica exportada sancionados_ceis."@pt;
 		vekg:createdAt "2024-11-14 17:12:03.072914" ;
 		vekg:hasDataSource <DataAsset/sancionados_ceis> ;
-		vekg:hasOntology <Ontology/sancionados_ceis> ;
+		vekg:hasOntology <ontology/sancionados_ceis> ;
 		vekg:hasMappings <Mappings/sancionados_ceis> ;
 		vekg:isPartOf <SVSpec/EKG_MUSICA_BR>
 	.
@@ -129,14 +124,14 @@
 	<EVDataGraph/contratos_cgu> a vekg:DataGraph, prov:Entity ;
 		rdfs:label "EV contratos_cgu Data Graph"@en, 
 			"Grafo de dados da VE contratos_cgu"@pt ;
-		sd:name "https://graphdb.arida.site/repositories/EKG_PUBLIC_CONTRACT/rdf-graphs/KG_contratos_cgu" ;
+		sd:name "https://graphdb.arida.site/repositories/ekg_public_contract/rdf-graphs/KG_contratos_cgu" ;
 		prov:wasGeneratedBy <EVTransformation/contratos_cgu> ;
 		prov:wasDerivedFrom <DataAsset/contratos_cgu>
 	.
 	<EVDataGraph/sancionados_ceis> a vekg:DataGraph, prov:Entity ;
 		rdfs:label "EV_sancionados_ceis Data Graph"@en, 
 			"Grafo de dados da VE_sancionados_ceis"@pt;
-		sd:name "https://graphdb.arida.site/repositories/EKG_PUBLIC_CONTRACT/rdf-graphs/KG_sancionados_ceis" ;
+		sd:name "https://graphdb.arida.site/repositories/ekg_public_contract/rdf-graphs/KG_sancionados_ceis" ;
 		prov:wasGeneratedBy <EVTransformation/sancionados_ceis> ;
 		prov:wasDerivedFrom <DataAsset/sancionados_ceis>
 	.
@@ -155,5 +150,52 @@
 		prov:hadPlan <Mappings/sancionados_ceis> ;
 		prov:endedAtTime "2024-11-14T15:17:14Z"^^xsd:dateTime 
 	.
+
+
+
+
+
+####################################################################
+###           INSTANCIANDO ONTOLOGIAS DAS VE                     ###
+####################################################################
+
+<ontology/contratos_cgu> a vekg:EVOntology ;
+	rdfs:label "Ontologia da VE_contratos_cgu"@pt, 
+		"Ontology of EV_contratos_cgu"@en ;
+	dc:description "Contém as classes e propriedades exclusivas da visão exportada contratos_cgu"@pt ,
+		"Contains the classes and properties unique to the exported contratos_cgu view"@en ;
+	vekg:hasClass 
+		schema:Contract,
+	vekg:hasProperty 
+		dc:description, 
+		foaf:name, 
+		vcard:fn,
+		pc:artistType,
+		pc:genres,
+		foaf:homepage,
+		dc:title, 
+		dbo:country,
+		dc:date,
+.
+<ontology/sancionados_ceis> a vekg:EVOntology ;
+	rdfs:label "Ontologia da VE_sancionados_ceis"@pt, 
+		"Ontology of EV_sancionados_ceis"@en ;
+	vekg:hasClass 
+		pc:Organization_sancionados_ceis, 
+	vekg:hasProperty 
+		foaf:name,
+		foaf:gender,
+		dc:date,
+		schema:thumbnail,
+		foaf:homepage		
+	.
+
+	pc:MusicArtist_contratos_cgu vekg:hasOntology <ontology/contratos_cgu> .
+	pc:Record_contratos_cgu vekg:hasOntology <ontology/contratos_cgu> .
+	pc:Track_contratos_cgu vekg:hasOntology <ontology/contratos_cgu> .
+	
+	pc:MusicArtist_sancionados_ceis vekg:hasOntology <ontology/sancionados_ceis> .
+	pc:Record_sancionados_ceis vekg:hasOntology <ontology/sancionados_ceis> .
+	pc:Track_sancionados_ceis vekg:hasOntology <ontology/sancionados_ceis> .
 
 }
