@@ -15,15 +15,15 @@ from query import *
 
 kg = Graph().parse("metadata_graph_rag.ttl", format="turtle")
 ontology = Graph().parse("vosv.ttl", format="turtle")
-#os.environ["GEMINI_API_KEY"] = "AIzaSyCmSA_GD1VoF76eftNQWAJk67CuZkMrSYs"
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyCKVuqzx8O30J6vr0GtCrP8YZvoMwCL8tI"
+
+os.environ["GEMINI_API_KEY"] = ""
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",  # 3. MUDANÇA PRINCIPAL: Nome de um modelo Gemini
     temperature=0.1,
     # Você pode descomentar a linha abaixo se preferir passar a chave explicitamente
-     google_api_key="AIzaSyCKVuqzx8O30J6vr0GtCrP8YZvoMwCL8tI"
+     google_api_key=""
 )
 #llm = LLM(model="gemini/gemini-2.0-flash", temperature=0.0)
 
