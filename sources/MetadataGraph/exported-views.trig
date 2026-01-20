@@ -60,6 +60,7 @@
 @prefix omgeo: <http://www.ontotext.com/owlim/geo#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix vekg: <http://www.arida.ufc.br/VEKG#> .
+@prefix ex: <http://example.org/ontology#> .
 @base <http://www.arida.ufc.br/resource/metadata/> .
 
 
@@ -91,8 +92,8 @@
 		vekg:hasDataGraph <EVDataGraph/sancionados_ceis>
 	.
 	####################################################################
-	###         INSTANCIANDO AS ESPECIFICAÇÕES                       ###
-	###         (ExportedView)-vekg:hasSpecification->(EVSpec)       ###
+	###   INSTANCIANDO AS ESPECIFICAÇÕES DAS VISÕES EXPORTADAS       ###
+	###   (ExportedView)-vekg:hasSpecification->(EVSpec)             ###
 	####################################################################
 	<EVSpec/contratos_cgu> a vekg:ExportedViewSpecification ;
 		rdfs:label "EV Contratos_cgu Specification"@en, 
@@ -155,47 +156,66 @@
 
 
 
-####################################################################
-###           INSTANCIANDO ONTOLOGIAS DAS VE                     ###
-####################################################################
-
-<ontology/contratos_cgu> a vekg:EVOntology ;
-	rdfs:label "Ontologia da VE_contratos_cgu"@pt, 
-		"Ontology of EV_contratos_cgu"@en ;
-	dc:description "Contém as classes e propriedades exclusivas da visão exportada contratos_cgu"@pt ,
-		"Contains the classes and properties unique to the exported contratos_cgu view"@en ;
-	vekg:hasClass 
-		schema:Contract,
-	vekg:hasProperty 
-		dc:description, 
-		foaf:name, 
-		vcard:fn,
-		pc:artistType,
-		pc:genres,
-		foaf:homepage,
-		dc:title, 
-		dbo:country,
-		dc:date,
-.
-<ontology/sancionados_ceis> a vekg:EVOntology ;
-	rdfs:label "Ontologia da VE_sancionados_ceis"@pt, 
-		"Ontology of EV_sancionados_ceis"@en ;
-	vekg:hasClass 
-		pc:Organization_sancionados_ceis, 
-	vekg:hasProperty 
-		foaf:name,
-		foaf:gender,
-		dc:date,
-		schema:thumbnail,
-		foaf:homepage		
+	####################################################################
+	###   INSTANCIANDO ONTOLOGIAS DAS VISÕES EXPORTADAS              ###
+	###   (EVSpec)-hasOntology->(vekg:EVOntology)                    ###
+	####################################################################
+	<ontology/contratos_cgu> a vekg:EVOntology ;
+		rdfs:label 
+			"Ontologia da VE_contratos_cgu"@pt, 
+			"Ontology of EV_contratos_cgu"@en ;
+		dc:description 
+			"Contém as classes e propriedades exclusivas da visão exportada contratos_cgu"@pt,
+			"Contains the classes and properties unique to the exported contratos_cgu view"@en ;
+		vekg:hasClass 
+			schema:Contract,     # Contract
+			schema:Organization, # PublicOrganization
+			foaf:Group,          # ManagementUnit
+			ex:Supplier;         # Suplier
+		vekg:hasProperty 
+			ex:hasPublicOrganization, # hasPublicOrganization
+			schema:department,        # hasManagementUnit
+			schema:supplier,          # hasSupplier
+			dc:identifier,    # codigoOrgao, codigoUnidadeGestora, numeroContrato, processo
+			schema:name,      # nomeOrgao, nomeUnidadeGestora, nomeRazaoSocialFornecedor
+			ex:cpfcnpj,       # niFornecedor
+			dc:description,   # objeto
+			schema:startDate, # dataVigenciaInicial
+			schema:endDate,   # dataVigenciaFinal
+			schema:price      # valorGlobal
+	.
+	<ontology/sancionados_ceis> a vekg:EVOntology ;
+		rdfs:label 
+			"Ontologia da VE_sancionados_ceis"@pt, 
+			"Ontology of EV_sancionados_ceis"@en ;
+		dc:description 
+			"Contém as classes e propriedades exclusivas da visão exportada sancionados_ceis"@pt,
+			"Contains the classes and properties unique to the exported sancionados_ceis view"@en ;
+		vekg:hasClass 
+			schema:Organization,           # SanctionedEntity
+			schema:GovernmentOrganization, # SanctioningAuthority
+			ex:Sanction;                   # Sanction
+		vekg:hasProperty 
+			foaf:maker,    # hasSanctioningAuthority
+			ex:hasSanction, # hasSanction
+			ex:cpfcnpj,    # CNPJCPF
+			schema:name,   # name
+			schema:addressRegion, # state
+			schema:category,      # sanctionCategory
+			schema:startDate,     # initialDate
+			schema:endDate,       # finalDate
+			schema:datePublished,        # publicationDate
+			schema:priceSpecification,   # fineValue
+			schema:quantity              # quantity
 	.
 
-	pc:MusicArtist_contratos_cgu vekg:hasOntology <ontology/contratos_cgu> .
-	pc:Record_contratos_cgu vekg:hasOntology <ontology/contratos_cgu> .
-	pc:Track_contratos_cgu vekg:hasOntology <ontology/contratos_cgu> .
+	schema:Contract     vekg:hasOntology <ontology/contratos_cgu> .
+	schema:Organization vekg:hasOntology <ontology/contratos_cgu> .
+	foaf:Group          vekg:hasOntology <ontology/contratos_cgu> .
+	ex:Supplier         vekg:hasOntology <ontology/contratos_cgu> .
 	
-	pc:MusicArtist_sancionados_ceis vekg:hasOntology <ontology/sancionados_ceis> .
-	pc:Record_sancionados_ceis vekg:hasOntology <ontology/sancionados_ceis> .
-	pc:Track_sancionados_ceis vekg:hasOntology <ontology/sancionados_ceis> .
+	schema:Organization           vekg:hasOntology <ontology/sancionados_ceis> .
+	schema:GovernmentOrganization vekg:hasOntology <ontology/sancionados_ceis> .
+	ex:Sanction                   vekg:hasOntology <ontology/sancionados_ceis> .
 
 }

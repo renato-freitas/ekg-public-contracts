@@ -45,6 +45,13 @@
       "term": "Event",
       "preferredPrefix": "dct",
       "isActive": false
+    },
+    {
+      "vocabulary": "Example",
+      "namespace": "http://example.org/ontology#",
+      "term": "Sanction",
+      "preferredPrefix": "ex",
+      "isActive": true
     }
   ],
   "hasSanctioningAuthority": [
@@ -77,6 +84,13 @@
       "term": "conformsTo",
       "preferredPrefix": "dct",
       "isActive": false
+    },
+    {
+      "vocabulary": "Example",
+      "namespace": "http://example.org/ontology#",
+      "term": "hasSanction",
+      "preferredPrefix": "ex",
+      "isActive": true
     }
   ],
   "CNPJCPF": [
