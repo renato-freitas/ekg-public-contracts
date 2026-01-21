@@ -1,0 +1,102 @@
+@prefix agg: <http://jena.apache.org/ARQ/function/aggregate#> .
+# @prefix : <urn:webprotege:ontology:4cb9ce59-34b4-4e84-9f7d-eb63d259ded2#> .
+@prefix mod: <http://www.isibang.ac.in/ns/mod#> .
+@prefix duv: <http://www.w3.org/ns/duv#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix geof: <http://www.opengis.net/def/function/geosparql/> .
+@prefix sfz: <http://www.sefaz.ma.gov.br/ontology/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix feac: <http://semantic.arida.ufc.br/ontology/feac/> .
+@prefix spif: <http://spinrdf.org/spif#> .
+@prefix path: <http://www.ontotext.com/path#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix daq: <http://purl.org/eis/vocab/daq#> .
+@prefix apf: <http://jena.apache.org/ARQ/property#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rep: <http://www.openrdf.org/config/repository#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix voag: <http://voag.linkedmodel.org/schema/voag#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix drm: <http://vocab.data.gov/def/drm#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vmv: <http://www.mashup.sefaz.ma.gov.br/ontology/> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix list: <http://jena.apache.org/ARQ/list#> .
+@prefix geoext: <http://rdf.useekm.com/ext#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix math: <http://www.w3.org/2005/xpath-functions/math> .
+@prefix cpcollection: <http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix sail: <http://www.openrdf.org/config/sail#> .
+@prefix mekg: <http://www.aria.ufc.br/resource/kg-metadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix array: <http://www.w3.org/2005/xpath-functions/array> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix map: <http://www.w3.org/2005/xpath-functions/map> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sr: <http://www.openrdf.org/config/repository/sail#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix afn: <http://jena.apache.org/ARQ/function#> .
+@prefix cp: <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#> .
+@prefix vskg: <http://www.arida.ufc.br/VSKG#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ofn: <http://www.ontotext.com/sparql/functions/> .
+@prefix graphdb: <http://www.ontotext.com/config/graphdb#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix omgeo: <http://www.ontotext.com/owlim/geo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vekg: <http://www.arida.ufc.br/VEKG#> .
+@prefix vosv: <http://www.arida.ufc.br/vosv#> .
+@prefix : <http://www.arida.ufc.br/ontologies/PJOPEN#> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix svm: <http://www.arida.ufc.br/ontologies/music#> .
+@prefix ex: <http://example.org/ontology#> .
+@base <http://www.arida.ufc.br/resource/metadata/> .
+
+<https://graphdb.arida.site/repositories/CASE_STUDY/rdf-graphs/KG_METADATA> {
+  
+	vosv:LinksetView              a owl:class .
+	vosv:LinksetViewSpecification a owl:Class .
+	vosv:hasLinksetSpecification  a owl:ObjectProperty . # pde ser uma subpropriedade de vosv:hasSpecification
+	
+   ####################################################################
+	###   INSTANCIANDO AS VISÕES DE LIGAÇÃO                          ###
+   ###   (LinksetView)-isPartOf->(SemanticView)                     ###
+	####################################################################
+	<lv/cgu_ceis_empresa> a vosv:LinksetView ;
+		rdfs:label 
+         "LinksetView of organization between CGU and CEIS"@en, 
+			"Visão de ligação entre organizações CGU e CEIS"@pt ;
+		vosv:createdAt "2025-12-05 08:10:33" ;
+		vosv:hasSpecification <lv_spec/cgu_ceis_empresa>
+	.
+	
+	
+   ####################################################################
+	###   INSTANCIANDO AS ESPECIFICAÇÕES DAS VISÕES DE LIGAÇÃO       ###
+   ###   (LinksetView)-vosv:hasSpecification->(LVSpec)              ###
+	####################################################################
+	<lv_spec/cgu_ceis_empresa> a vosv:LinksetViewSpecification;
+		rdfs:label 
+         "LinksetView of organization Specification"@en,
+			"Visão de ligação entre organizações CGU e CEIS"@pt;
+		vosv:hasGeneralizationClass schema:Organization ;
+		vosv:hasSourceClass schema:Organization ; 
+		vosv:hasTargetClass schema:Organization ;
+		vosv:hasMatchFunction <mf/cgu_ceis_empresaa> ;
+		void:linkPredicate owl:sameAs
+	.
+}
