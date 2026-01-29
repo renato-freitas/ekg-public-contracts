@@ -53,8 +53,16 @@ vocabulary_agent = Agent(
 )
 
 
-
-
+#4
+ontology_alignment_agent = Agent(
+    role="Ontology Engineer with Integration Focus",
+    goal="Align ontology classes and propose generalized classes for data fusion",
+    backstory="""You are an expert in data architecture and Semantic Web. 
+    Your role is to identify matches between different schemas and suggest how this 
+    data could be unified into a new class hierarchy (Generalization).""",
+    #llm=gemini_llm,
+    verbose=True
+)
 
 
 

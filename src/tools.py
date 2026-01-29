@@ -90,6 +90,11 @@ def load_json_data(filename:str):
 		print(f"Error: Invalid JSON format in '{filename}'")
 		return None
 	
+def get_ontology_file(path):
+    with open(path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        # We pass the raw JSON so the LLM has full access to metadata
+        return json.dumps(data, indent=2, ensure_ascii=False)
 
 	
 ######################################################

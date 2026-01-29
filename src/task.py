@@ -1,6 +1,6 @@
 from crewai import Task
 from pydantic import BaseModel
-from agents import data_schema_agent, ontology_agent, vocabulary_agent
+from agents import data_schema_agent, ontology_agent, vocabulary_agent, ontology_alignment_agent
 
 OUTPUTS_FOLDER = "src/outputs"
 
@@ -74,6 +74,53 @@ analyze_ontology_and_suggest_vocab_task = Task(
    ),
    context=[dataset_ontology_generation],
    output_file=OUTPUTS_FOLDER + "/vocabulary.json",
+)
+
+file_1 = get_ontology_file("outputs/ontologization_ceis.json")
+file_2 = get_ontology_file("outputs/ontologization_cgu.json")
+
+alignment_task = Task(
+    description=f"""
+    Analyze the two JSON files below to find the best class matches:
+
+    ONTOLOGY A:
+    {file_1}
+
+    ONTOLOGY B:
+    {file_2}
+
+    Your mission:
+    1. Identify class pairs with the highest match score (Based on names, comments, and property types).
+    2. For each match found, present:
+       - URI_Class_A and URI_Class_B.
+       - Confidence Score (0.0 to 1.0).
+       - Evidence (Shared properties).
+       - Semantic Justification.
+    3. **Integrated Class Suggestion**: Propose an 'IntegratedClass' (Fusion). 
+       NAMING RULES: 
+       - Do not use generic terms like 'Party', 'Entity', or 'Object'.
+       - The name must be a compound noun reflecting the nature of both datasets.
+       - If Class A deals with punishment and Class B deals with supply, the name should be something like 'PunishedSupplier' or 'SanctionedContractor'.
+    4. **Specialized Classes Suggestion**: Also suggest the name of each class with a suffix_ according to the data source,
+    following the URI pattern (e.g., **URI_Class_A**: `http://example.com/sanctions#SanctioningAuthority`, the suggested specialized class should be SanctioningAuthority_SANCTIONS).
+    """,
+    expected_output="""A detailed alignment report. 
+    For each pair, include a section 'Suggestion for GeneralizationClass with value: [Specific Compound Name]' and 'Suggestion for Specialized Class' and wait for human feedback.""",
+    agent=ontology_alignment_agent,
+    human_input=True 
+)
+
+rdf_generation_task = Task(
+    description="""
+    Based on the approved matches, generate an alignment ontology in RDF Turtle format.
+    Use the 'align:' prefix for mapping relationships.
+    Include the new integrated classes (GeneralizationClass) as :GeneralizationClass and owl:Class.
+    Include the new Specialized classes as owl:Class and use rdfs:subClassOf to connect these classes with their respective integrated classes.
+    """,
+    expected_output="Full file content in RDF Turtle format.",
+    agent=ontology_alignment_agent,
+    context=[alignment_task], 
+    output_file="outputs/alignment.ttl" 
 )
 
 ######################################################
