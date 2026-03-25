@@ -1,0 +1,113 @@
+@prefix vosv: <http://agentic-ai/vosv/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix CGU: <http://agentic-ai/ontology/CGU#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <http://agentic-ai/ontology/CGU> .
+
+### Ontology
+CGU: a owl:Ontology ;
+    vosv:hasMatching 
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/codigoOrgao> ;
+            vosv:ontologyTerm CGU:organizationCode
+        ] ,
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/nomeOrgao> ;
+            vosv:ontologyTerm CGU:organizationName
+        ] ,
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/numeroContrato> ;
+            vosv:ontologyTerm CGU:contractNumber
+        ] ,
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/niFornecedor> ;
+            vosv:ontologyTerm CGU:supplierId
+        ] ,
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/nomeRazaoSocialFornecedor> ;
+            vosv:ontologyTerm CGU:supplierName
+        ] ,
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/numeroCompra> ;
+            vosv:ontologyTerm CGU:purchaseNumber
+        ] ,
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/codigoModalidadeCompra> ;
+            vosv:ontologyTerm CGU:purchaseModeCode
+        ] ,
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/nomeModalidadeCompra> ;
+            vosv:ontologyTerm CGU:purchaseModeName
+        ] ,
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/objeto> ;
+            vosv:ontologyTerm CGU:object
+        ] ,
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/dataVigenciaInicial> ;
+            vosv:ontologyTerm CGU:initialValidityDate
+        ] ,
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/dataVigenciaFinal> ;
+            vosv:ontologyTerm CGU:finalValidityDate
+        ] ,
+        [ a vosv:Matching ;
+            vosv:dataSourceTerm <http://agentic-ai/resource/metadata/column/cgu/valorGlobal> ;
+            vosv:ontologyTerm CGU:globalValue
+        ] .
+
+### Classes
+CGU:Organization a owl:Class .
+CGU:Supplier a owl:Class .
+CGU:Contract a owl:Class .
+CGU:Purchase a owl:Class .
+
+### Object Properties
+CGU:hasSupplier a owl:ObjectProperty ;
+    rdfs:domain CGU:Contract ;
+    rdfs:range CGU:Supplier .
+CGU:hasOrganization a owl:ObjectProperty ;
+    rdfs:domain CGU:Contract ;
+    rdfs:range CGU:Organization .
+CGU:hasPurchase a owl:ObjectProperty ;
+    rdfs:domain CGU:Contract ;
+    rdfs:range CGU:Purchase .
+
+### Datatype Properties
+CGU:organizationCode a owl:DatatypeProperty ;
+    rdfs:domain CGU:Organization ;
+    rdfs:range xsd:integer .
+CGU:organizationName a owl:DatatypeProperty ;
+    rdfs:domain CGU:Organization ;
+    rdfs:range xsd:string .
+CGU:contractNumber a owl:DatatypeProperty ;
+    rdfs:domain CGU:Contract ;
+    rdfs:range xsd:string .
+CGU:supplierId a owl:DatatypeProperty ;
+    rdfs:domain CGU:Supplier ;
+    rdfs:range xsd:integer .
+CGU:supplierName a owl:DatatypeProperty ;
+    rdfs:domain CGU:Supplier ;
+    rdfs:range xsd:string .
+CGU:purchaseNumber a owl:DatatypeProperty ;
+    rdfs:domain CGU:Purchase ;
+    rdfs:range xsd:string .
+CGU:purchaseModeCode a owl:DatatypeProperty ;
+    rdfs:domain CGU:Purchase ;
+    rdfs:range xsd:integer .
+CGU:purchaseModeName a owl:DatatypeProperty ;
+    rdfs:domain CGU:Purchase ;
+    rdfs:range xsd:string .
+CGU:object a owl:DatatypeProperty ;
+    rdfs:domain CGU:Purchase ;
+    rdfs:range xsd:string .
+CGU:initialValidityDate a owl:DatatypeProperty ;
+    rdfs:domain CGU:Contract ;
+    rdfs:range xsd:dateTime .
+CGU:finalValidityDate a owl:DatatypeProperty ;
+    rdfs:domain CGU:Contract ;
+    rdfs:range xsd:dateTime .
+CGU:globalValue a owl:DatatypeProperty ;
+    rdfs:domain CGU:Contract ;
+    rdfs:range xsd:float .
