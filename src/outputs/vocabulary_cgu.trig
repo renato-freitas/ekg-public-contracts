@@ -1,0 +1,237 @@
+@prefix cgu: <http://agentic-ai/ontology/CGU#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vosv: <http://agentic-ai/resource/metadata/CGU/vosv#> .
+@prefix vann: <http://purl.org/vocab/annotation/schema#> .
+@prefix vekg: <http://agentic-ai/resource/metadata/CGU/vekg#> .
+
+<http://agentic-ai/resource/metadata/CGU/rdf-term/organization> a vosv:RDFClass ;
+  rdfs:label "Organization" ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/organization-01> ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/organization-02> .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/organization-01> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary organization-01" ;
+  vann:preferredNamespacePrefix "foaf:" ;
+  vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/" ;
+  vekg:explanation "The term 'organization' is related to the foaf:vocabulary, which provides a set of terms for describing organizations and their relationships." ;
+  vekg:isActive "true" ;
+  vekg:property "foaf:organization" .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/organization-02> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary organization-02" ;
+  vann:preferredNamespacePrefix "dc:" ;
+  vann:preferredNamespaceUri "http://purl.org/dc/terms/" ;
+  vekg:explanation "The term 'organization' is related to the dc:vocabulary, which provides a set of terms for describing organizations and their metadata." ;
+  vekg:isActive "false" ;
+  vekg:property "dc:creator" .
+
+<http://agentic-ai/resource/metadata/CGU/rdf-term/supplier> a vosv:RDFClass ;
+  rdfs:label "Supplier" ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/supplier-01> ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/supplier-02> .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/supplier-01> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary supplier-01" ;
+  vann:preferredNamespacePrefix "gr:" ;
+  vann:preferredNamespaceUri "http://purl.org/goodrelations/v1#" ;
+  vekg:explanation "The term 'supplier' is related to the gr:vocabulary, which provides a set of terms for describing business entities and their relationships." ;
+  vekg:isActive "true" ;
+  vekg:property "gr:supplier" .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/supplier-02> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary supplier-02" ;
+  vann:preferredNamespacePrefix "schema:" ;
+  vann:preferredNamespaceUri "http://schema.org/" ;
+  vekg:explanation "The term 'supplier' is related to the schema:vocabulary, which provides a set of terms for describing organizations and their relationships." ;
+  vekg:isActive "false" ;
+  vekg:property "schema:supplier" .
+
+<http://agentic-ai/resource/metadata/CGU/rdf-term/contract> a vosv:RDFClass ;
+  rdfs:label "Contract" ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/contract-01> ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/contract-02> .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/contract-01> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary contract-01" ;
+  vann:preferredNamespacePrefix "odrs:" ;
+  vann:preferredNamespaceUri "http://www.opencontracts.org/v1#" ;
+  vekg:explanation "The term 'contract' is related to the odrs:vocabulary, which provides a set of terms for describing contracts and their relationships." ;
+  vekg:isActive "true" ;
+  vekg:property "odrs:contract" .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/contract-02> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary contract-02" ;
+  vann:preferredNamespacePrefix "schema:" ;
+  vann:preferredNamespaceUri "http://schema.org/" ;
+  vekg:explanation "The term 'contract' is related to the schema:vocabulary, which provides a set of terms for describing contracts and their relationships." ;
+  vekg:isActive "false" ;
+  vekg:property "schema:contract" .
+
+<http://agentic-ai/resource/metadata/CGU/rdf-term/purchase> a vosv:RDFClass ;
+  rdfs:label "Purchase" ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/purchase-01> ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/purchase-02> .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/purchase-01> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary purchase-01" ;
+  vann:preferredNamespacePrefix "gr:" ;
+  vann:preferredNamespaceUri "http://purl.org/goodrelations/v1#" ;
+  vekg:explanation "The term 'purchase' is related to the gr:vocabulary, which provides a set of terms for describing business transactions and their relationships." ;
+  vekg:isActive "true" ;
+  vekg:property "gr:purchase" .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/purchase-02> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary purchase-02" ;
+  vann:preferredNamespacePrefix "schema:" ;
+  vann:preferredNamespaceUri "http://schema.org/" ;
+  vekg:explanation "The term 'purchase' is related to the schema:vocabulary, which provides a set of terms for describing purchases and their relationships." ;
+  vekg:isActive "false" ;
+  vekg:property "schema:purchase" .
+
+<http://agentic-ai/resource/metadata/CGU/rdf-term/organizationcode> a vosv:RDFProperty ;
+  rdfs:label "organizationCode" ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/organizationcode-01> ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/organizationcode-02> .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/organizationcode-01> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary organizationcode-01" ;
+  vann:preferredNamespacePrefix "dc:" ;
+  vann:preferredNamespaceUri "http://purl.org/dc/terms/" ;
+  vekg:explanation "The term 'organizationCode' is related to the dc:vocabulary, which provides a set of terms for describing metadata and their relationships." ;
+  vekg:isActive "true" ;
+  vekg:property "dc:identifier" .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/organizationcode-02> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary organizationcode-02" ;
+  vann:preferredNamespacePrefix "schema:" ;
+  vann:preferredNamespaceUri "http://schema.org/" ;
+  vekg:explanation "The term 'organizationCode' is related to the schema:vocabulary, which provides a set of terms for describing organizations and their relationships." ;
+  vekg:isActive "false" ;
+  vekg:property "schema:code" .
+
+<http://agentic-ai/resource/metadata/CGU/rdf-term/organizationname> a vosv:RDFProperty ;
+  rdfs:label "organizationName" ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/organizationname-01> ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/organizationname-02> .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/organizationname-01> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary organizationname-01" ;
+  vann:preferredNamespacePrefix "foaf:" ;
+  vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/" ;
+  vekg:explanation "The term 'organizationName' is related to the foaf:vocabulary, which provides a set of terms for describing organizations and their relationships." ;
+  vekg:isActive "true" ;
+  vekg:property "foaf:name" .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/organizationname-02> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary organizationname-02" ;
+  vann:preferredNamespacePrefix "schema:" ;
+  vann:preferredNamespaceUri "http://schema.org/" ;
+  vekg:explanation "The term 'organizationName' is related to the schema:vocabulary, which provides a set of terms for describing organizations and their relationships." ;
+  vekg:isActive "false" ;
+  vekg:property "schema:name" .
+
+<http://agentic-ai/resource/metadata/CGU/rdf-term/contractnumber> a vosv:RDFProperty ;
+  rdfs:label "contractNumber" ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/contractnumber-01> ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/contractnumber-02> .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/contractnumber-01> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary contractnumber-01" ;
+  vann:preferredNamespacePrefix "odrs:" ;
+  vann:preferredNamespaceUri "http://www.opencontracts.org/v1#" ;
+  vekg:explanation "The term 'contractNumber' is related to the odrs:vocabulary, which provides a set of terms for describing contracts and their relationships." ;
+  vekg:isActive "true" ;
+  vekg:property "odrs:contractNumber" .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/contractnumber-02> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary contractnumber-02" ;
+  vann:preferredNamespacePrefix "schema:" ;
+  vann:preferredNamespaceUri "http://schema.org/" ;
+  vekg:explanation "The term 'contractNumber' is related to the schema:vocabulary, which provides a set of terms for describing contracts and their relationships." ;
+  vekg:isActive "false" ;
+  vekg:property "schema:contractNumber" .
+
+<http://agentic-ai/resource/metadata/CGU/rdf-term/supplierid> a vosv:RDFProperty ;
+  rdfs:label "supplierId" ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/supplierid-01> ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/supplierid-02> .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/supplierid-01> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary supplierid-01" ;
+  vann:preferredNamespacePrefix "gr:" ;
+  vann:preferredNamespaceUri "http://purl.org/goodrelations/v1#" ;
+  vekg:explanation "The term 'supplierId' is related to the gr:vocabulary, which provides a set of terms for describing business entities and their relationships." ;
+  vekg:isActive "true" ;
+  vekg:property "gr:supplierId" .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/supplierid-02> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary supplierid-02" ;
+  vann:preferredNamespacePrefix "schema:" ;
+  vann:preferredNamespaceUri "http://schema.org/" ;
+  vekg:explanation "The term 'supplierId' is related to the schema:vocabulary, which provides a set of terms for describing suppliers and their relationships." ;
+  vekg:isActive "false" ;
+  vekg:property "schema:supplierId" .
+
+<http://agentic-ai/resource/metadata/CGU/rdf-term/suppliername> a vosv:RDFProperty ;
+  rdfs:label "supplierName" ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/suppliername-01> ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/suppliername-02> .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/suppliername-01> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary suppliername-01" ;
+  vann:preferredNamespacePrefix "foaf:" ;
+  vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/" ;
+  vekg:explanation "The term 'supplierName' is related to the foaf:vocabulary, which provides a set of terms for describing organizations and their relationships." ;
+  vekg:isActive "true" ;
+  vekg:property "foaf:name" .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/suppliername-02> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary suppliername-02" ;
+  vann:preferredNamespacePrefix "schema:" ;
+  vann:preferredNamespaceUri "http://schema.org/" ;
+  vekg:explanation "The term 'supplierName' is related to the schema:vocabulary, which provides a set of terms for describing suppliers and their relationships." ;
+  vekg:isActive "false" ;
+  vekg:property "schema:name" .
+
+<http://agentic-ai/resource/metadata/CGU/rdf-term/purchasenumber> a vosv:RDFProperty ;
+  rdfs:label "purchaseNumber" ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/purchasenumber-01> ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/purchasenumber-02> .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/purchasenumber-01> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary purchasenumber-01" ;
+  vann:preferredNamespacePrefix "gr:" ;
+  vann:preferredNamespaceUri "http://purl.org/goodrelations/v1#" ;
+  vekg:explanation "The term 'purchaseNumber' is related to the gr:vocabulary, which provides a set of terms for describing business transactions and their relationships." ;
+  vekg:isActive "true" ;
+  vekg:property "gr:purchaseNumber" .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/purchasenumber-02> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary purchasenumber-02" ;
+  vann:preferredNamespacePrefix "schema:" ;
+  vann:preferredNamespaceUri "http://schema.org/" ;
+  vekg:explanation "The term 'purchaseNumber' is related to the schema:vocabulary, which provides a set of terms for describing purchases and their relationships." ;
+  vekg:isActive "false" ;
+  vekg:property "schema:purchaseNumber" .
+
+<http://agentic-ai/resource/metadata/CGU/rdf-term/purchasemodecode> a vosv:RDFProperty ;
+  rdfs:label "purchaseModeCode" ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/purchasemodecode-01> ;
+  vosv:hasSuggestedVocabulary <http://agentic-ai/resource/metadata/CGU/vocabulary/purchasemodecode-02> .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/purchasemodecode-01> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary purchasemodecode-01" ;
+  vann:preferredNamespacePrefix "gr:" ;
+  vann:preferredNamespaceUri "http://purl.org/goodrelations/v1#" ;
+  vekg:explanation "The term 'purchaseModeCode' is related to the gr:vocabulary, which provides a set of terms for describing business transactions and their relationships." ;
+  vekg:isActive "true" ;
+  vekg:property "gr:purchaseMode" .
+
+<http://agentic-ai/resource/metadata/CGU/vocabulary/purchasemodecode-02> a vosv:SuggestedProperty ;
+  rdfs:label "Suggest Vocabulary purchasemodecode-02" ;
+  vann:preferredNamespacePrefix "schema:" ;
+  vann:preferredNamespaceUri "http://schema.org/" ;
+  vekg:explanation "The term 'purchaseModeCode' is related to the schema:vocabulary, which provides a set of terms for describing purchases and their relationships." 
+  .
