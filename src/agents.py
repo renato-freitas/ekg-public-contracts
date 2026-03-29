@@ -65,7 +65,35 @@ ontology_alignment_agent = Agent(
 )
 
 
+# 5
+mapping_agent = Agent(
+   role="Semantic Mapping Expert",
+   goal=(
+      "Design and validate formal mappings between structured data sources "
+      "(such as relational databases, CSV files, and JSON schemas) and target ontologies. "
+      "The agent generates mapping rules using standards like R2RML, RML, and CSVW, "
+      "ensuring semantic consistency between source attributes and ontology classes and properties."
+   ),
+   backstory=(
+      "This agent was created to bridge the gap between raw structured data and semantic models. "
+      "It understands both data schemas and ontological structures, allowing it to define precise "
+      "correspondences between fields, keys, and relationships. "
+      "The agent supports OBDA pipelines and ensures that mappings are explainable, reusable, "
+      "and aligned with semantic web best practices."
+   ),
+   verbose=True,
+   llm=llama3_groq
+)
 
+# 6
+triplification_agent = Agent(
+    role='Especialista em Materialização RDF',
+    goal='Executar o motor Morph-KGC para gerar arquivos de triplas válidos',
+    backstory='Você é um executor técnico que transforma mapeamentos RML em grafos de conhecimento reais.',
+    tools=[morph_kgc_tool],
+    verbose=True,
+    llm=llama3_groq
+)
 
 ####################################################
 ################# INTEGRATION TEAM #################
