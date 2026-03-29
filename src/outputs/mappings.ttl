@@ -1,0 +1,65 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cgu: <http://agentic-ai/cgu#> .
+
+<http://agentic-ai/resource/contrato>
+    a rr:TriplesMap ;
+    rr:logicalSource [
+        a rml:LogicalSource ;
+        rml:source "contratos.csv" ;
+        rml:referenceFormulation ql:CSV
+    ] ;
+    rr:subjectMap [
+        rr:template "http://agentic-ai/resource/contrato/{numeroContrato}" ;
+        rr:class cgu:Contract
+    ] ;
+    rr:predicateObjectMap [
+        # nomeOrgao → cgu:organizationName
+        rr:predicate <cgu:organizationName> ;
+        rr:objectMap [
+            rml:reference "nomeOrgao" ;
+            rr:datatype xsd:string
+        ]
+    ] ;
+    rr:predicateObjectMap [
+        # descricaoContrato → cgu:contractDescription
+        rr:predicate <cgu:contractDescription> ;
+        rr:objectMap [
+            rml:reference "descricaoContrato" ;
+            rr:datatype xsd:string
+        ]
+    ] ;
+    rr:predicateObjectMap [
+        # valorTotalContrato → cgu:totalContractValue
+        rr:predicate <cgu:totalContractValue> ;
+        rr:objectMap [
+            rml:reference "valorTotalContrato" ;
+            rr:datatype xsd:decimal
+        ]
+    ] ;
+    rr:predicateObjectMap [
+        # dataAssinatura → cgu:signatureDate
+        rr:predicate <cgu:signatureDate> ;
+        rr:objectMap [
+            rml:reference "dataAssinatura" ;
+            rr:datatype xsd:dateTime
+        ]
+    ] ;
+    rr:predicateObjectMap [
+        # dataPublicacao → cgu:publicationDate
+        rr:predicate <cgu:publicationDate> ;
+        rr:objectMap [
+            rml:reference "dataPublicacao" ;
+            rr:datatype xsd:dateTime
+        ]
+    ] ;
+    rr:predicateObjectMap [
+        # numeroContrato → cgu:contractNumber
+        rr:predicate <cgu:contractNumber> ;
+        rr:objectMap [
+            rml:reference "numeroContrato" ;
+            rr:datatype xsd:string
+        ]
+    ] .

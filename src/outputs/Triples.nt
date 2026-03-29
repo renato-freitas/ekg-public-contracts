@@ -1,0 +1,1133 @@
+<http://example.org/contracts/Contrato/00050%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00012%2F2025> <http://example.org/contracts#valorGlobal> "661320.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000276> <http://example.org/contracts#numeroContrato> "2025NE000276" .
+<http://example.org/contracts/Supplier/26395502000152> <http://example.org/contracts#nomeRazaoSocialFornecedor> "DENTAL UNIVERSO LTDA" .
+<http://example.org/contracts/Contrato/2025NE000798> <http://example.org/contracts#numeroContrato> "2025NE000798" .
+<http://example.org/contracts/Contrato/00014%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00007%2F2025> <http://example.org/contracts#numeroContrato> "00007/2025" .
+<http://example.org/contracts/Contrato/00020%2F2025> <http://example.org/contracts#valorGlobal> "56123.76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/52369074000101> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ANTONIA DINAIR LIMA E SILVA" .
+<http://example.org/contracts/Contrato/00016%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000796> <http://example.org/contracts#valorGlobal> "3460.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/07235800000130> <http://example.org/contracts#nomeRazaoSocialFornecedor> "SUSTENTEC SERVIÇOS EM TECNOLOGIA LTDA ME" .
+<http://example.org/contracts/Contrato/2025NE000483> <http://example.org/contracts#numeroContrato> "2025NE000483" .
+<http://example.org/contracts/Contrato/00031%2F2025> <http://example.org/contracts#valorGlobal> "667000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000289> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000503> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00046%2F2025> <http://example.org/contracts#numeroContrato> "00046/2025" .
+<http://example.org/contracts/Contrato/2025NE000928> <http://example.org/contracts#numeroContrato> "2025NE000928" .
+<http://example.org/contracts/Contrato/2025NE000775> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/01151850000153> .
+<http://example.org/contracts/Contrato/2025NE000790> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/25329901000152> .
+<http://example.org/contracts/Contrato/2025NE000766> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/20784313000195> .
+<http://example.org/contracts/Contrato/00040%2F2025> <http://example.org/contracts#numeroContrato> "00040/2025" .
+<http://example.org/contracts/Supplier/08407726000155> <http://example.org/contracts#nomeRazaoSocialFornecedor> "SEMENTEK COMERCIO E REPRESENTACOES LTDA" .
+<http://example.org/contracts/Contrato/00005%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000112> <http://example.org/contracts#numeroContrato> "2025NE000112" .
+<http://example.org/contracts/Contrato/2025NE000356> <http://example.org/contracts#numeroContrato> "2025NE000356" .
+<http://example.org/contracts/Contrato/2025NE000385> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/10498974000281> .
+<http://example.org/contracts/Contrato/2025NE000338> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/00174282000143> .
+<http://example.org/contracts/Contrato/2025NE000656> <http://example.org/contracts#numeroContrato> "2025NE000656" .
+<http://example.org/contracts/Contrato/00028%2F2025> <http://example.org/contracts#numeroContrato> "00028/2025" .
+<http://example.org/contracts/Contrato/00040%2F2025> <http://example.org/contracts#valorGlobal> "154800.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000819> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/73334666000150> .
+<http://example.org/contracts/Contrato/2025NE000649> <http://example.org/contracts#valorGlobal> "26950.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000632> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00008%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000276> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/21237303000100> .
+<http://example.org/contracts/Supplier/10498974000281> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000630> <http://example.org/contracts#valorGlobal> "4084.85"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00009%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/04614281000123> .
+<http://example.org/contracts/Contrato/2025NE000344> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/50116864000141> <http://example.org/contracts#nomeRazaoSocialFornecedor> "TLS EQUIPAMENTOS DE PROTECAO LTDA" .
+<http://example.org/contracts/Contrato/2025NE000297> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/91828244000112> .
+<http://example.org/contracts/Contrato/2025NE000451> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000447> <http://example.org/contracts#valorGlobal> "1849.88"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000332> <http://example.org/contracts#numeroContrato> "2025NE000332" .
+<http://example.org/contracts/Contrato/2025NE000112> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/51477402000112> .
+<http://example.org/contracts/Contrato/2025NE000452> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08407726000155> .
+<http://example.org/contracts/Contrato/2025NE000497> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/28933805000107> .
+<http://example.org/contracts/Contrato/2025NE000302> <http://example.org/contracts#valorGlobal> "1970.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000451> <http://example.org/contracts#valorGlobal> "12939.78"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000765> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/26644910000109> .
+<http://example.org/contracts/Contrato/2025NE000449> <http://example.org/contracts#valorGlobal> "2359.8"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/73334666000150> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ASSOC NAC DIRIGENTES DAS INST FED DE ENSINO SUPERIOR" .
+<http://example.org/contracts/Contrato/2025NE000705> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/36280886000111> .
+<http://example.org/contracts/Supplier/32469869000176> <http://example.org/contracts#nomeRazaoSocialFornecedor> "M C VITORIANO DE QUEIROZ LTDA" .
+<http://example.org/contracts/Contrato/2025NE000906> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/28857335000140> .
+<http://example.org/contracts/Contrato/2025NE000703> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/09056231000191> <http://example.org/contracts#nomeRazaoSocialFornecedor> "APB COMERCIO DE MOVEIS LTDA" .
+<http://example.org/contracts/Contrato/00023%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/06750525000120> .
+<http://example.org/contracts/Contrato/2025NE000338> <http://example.org/contracts#valorGlobal> "950.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000447> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/12309446000181> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000579> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000752> <http://example.org/contracts#numeroContrato> "2025NE000752" .
+<http://example.org/contracts/Contrato/2025NE000296> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00008%2F2025> <http://example.org/contracts#valorGlobal> "1554840.54"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000796> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/53568001000101> .
+<http://example.org/contracts/Contrato/2025NE000819> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/07954480000179> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ESTADO DO CEARA" .
+<http://example.org/contracts/Contrato/00006%2F2025> <http://example.org/contracts#valorGlobal> "858000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000787> <http://example.org/contracts#valorGlobal> "1558.75"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000450> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/03444532000106> .
+<http://example.org/contracts/Supplier/26348306000127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00040%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/09168704000142> .
+<http://example.org/contracts/Contrato/00050%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000812> <http://example.org/contracts#valorGlobal> "2500.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00025%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/04074457000100> .
+<http://example.org/contracts/Contrato/00004%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/10744098000145> .
+<http://example.org/contracts/Supplier/53568001000101> <http://example.org/contracts#nomeRazaoSocialFornecedor> "EVEN COMERCIAL LTDA" .
+<http://example.org/contracts/Contrato/2025NE000243> <http://example.org/contracts#valorGlobal> "4176.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00020%2F2025> <http://example.org/contracts#numeroContrato> "00020/2025" .
+<http://example.org/contracts/Supplier/32410406000139> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00033%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/14213878000110> .
+<http://example.org/contracts/Supplier/07875818000105> <http://example.org/contracts#nomeRazaoSocialFornecedor> "CETREDE - CENTRO DE TREINAMENTO E DESENVOLVIMENTO" .
+<http://example.org/contracts/Contrato/2025NE000385> <http://example.org/contracts#numeroContrato> "2025NE000385" .
+<http://example.org/contracts/Contrato/00038%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/31302808000157> .
+<http://example.org/contracts/Contrato/00033%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/30479645000110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/22527686000106> <http://example.org/contracts#nomeRazaoSocialFornecedor> "FARELO JP INDUSTRIA E COMERCIO DE RACOES LTDA" .
+<http://example.org/contracts/Contrato/00015%2F2025> <http://example.org/contracts#valorGlobal> "6872.4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/02014521000123> <http://example.org/contracts#nomeRazaoSocialFornecedor> "DEFENSORIA PUBLICA DO ESTADO DO CEARA" .
+<http://example.org/contracts/Supplier/03508097000136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/91828244000112> <http://example.org/contracts#nomeRazaoSocialFornecedor> "DENTARIA KLYMUS LTDA" .
+<http://example.org/contracts/Contrato/2025NE000807> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000335> <http://example.org/contracts#valorGlobal> "1240.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/04964024000111> <http://example.org/contracts#nomeRazaoSocialFornecedor> "FUNDAÇÃO CULTURAL LUIS PAULA NUNES" .
+<http://example.org/contracts/Contrato/2025NE000632> <http://example.org/contracts#numeroContrato> "2025NE000632" .
+<http://example.org/contracts/Contrato/2025NE000114> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/50567060000169> .
+<http://example.org/contracts/Contrato/00031%2F2025> <http://example.org/contracts#numeroContrato> "00031/2025" .
+<http://example.org/contracts/Supplier/59594498000100> <http://example.org/contracts#nomeRazaoSocialFornecedor> "CONSORCIO LABOMAR 2025" .
+<http://example.org/contracts/Contrato/2025NE000797> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00030%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00001%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000631> <http://example.org/contracts#valorGlobal> "11834.42"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00015%2F2025> <http://example.org/contracts#numeroContrato> "00015/2025" .
+<http://example.org/contracts/Contrato/00037%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000775> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000509> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000633> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00013%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/20501854000169> .
+<http://example.org/contracts/Contrato/2025NE000656> <http://example.org/contracts#valorGlobal> "1375.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000909> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08886401000100> .
+<http://example.org/contracts/Supplier/21237303000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE001004> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/00449079000132> .
+<http://example.org/contracts/Contrato/2025NE000799> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00038%2F2025> <http://example.org/contracts#numeroContrato> "00038/2025" .
+<http://example.org/contracts/Contrato/00011%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00009%2F2025> <http://example.org/contracts#numeroContrato> "00009/2025" .
+<http://example.org/contracts/Contrato/2025NE000423> <http://example.org/contracts#numeroContrato> "2025NE000423" .
+<http://example.org/contracts/Contrato/2025NE000837> <http://example.org/contracts#valorGlobal> "1900.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000266> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/33587022000159> .
+<http://example.org/contracts/Supplier/41428781000105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000763> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/38138754000185> <http://example.org/contracts#nomeRazaoSocialFornecedor> "RN COMERCIO VAREJISTA DE GLP LTDA" .
+<http://example.org/contracts/Supplier/37117510000153> <http://example.org/contracts#nomeRazaoSocialFornecedor> "IRMAOS LIMA COLE PRODUTOS FARMACEUTICOS LTDA" .
+<http://example.org/contracts/Contrato/00024%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000542> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/14566765000106> .
+<http://example.org/contracts/Contrato/2025NE000613> <http://example.org/contracts#valorGlobal> "443.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000243> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/29868059000188> .
+<http://example.org/contracts/Contrato/00032%2F2025> <http://example.org/contracts#valorGlobal> "511161.85"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000766> <http://example.org/contracts#valorGlobal> "1816.84"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/04958321000154> <http://example.org/contracts#nomeRazaoSocialFornecedor> "HARDLINK INFORMATICA E SISTEMAS LTDA" .
+<http://example.org/contracts/Contrato/2025NE000510> <http://example.org/contracts#valorGlobal> "13843.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00023%2F2025> <http://example.org/contracts#numeroContrato> "00023/2025" .
+<http://example.org/contracts/Contrato/2025NE000344> <http://example.org/contracts#numeroContrato> "2025NE000344" .
+<http://example.org/contracts/Contrato/2025NE000809> <http://example.org/contracts#numeroContrato> "2025NE000809" .
+<http://example.org/contracts/Supplier/23460299000162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000341> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/53588462000138> .
+<http://example.org/contracts/Contrato/2025NE000295> <http://example.org/contracts#valorGlobal> "47790.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000502> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000700> <http://example.org/contracts#valorGlobal> "50592.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/22077847000107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/14213878000110> <http://example.org/contracts#nomeRazaoSocialFornecedor> "QUALES TECNOLOGIA COMERCIO E SERVICO LTDA" .
+<http://example.org/contracts/Contrato/2025NE000311> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/43843358000350> .
+<http://example.org/contracts/Contrato/2025NE000278> <http://example.org/contracts#valorGlobal> "4872.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000809> <http://example.org/contracts#valorGlobal> "3575.52"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/05330436000162> <http://example.org/contracts#nomeRazaoSocialFornecedor> "FUNDACAO CEARENSE DE PESQUISA E CULTURA" .
+<http://example.org/contracts/Contrato/2025NE000752> <http://example.org/contracts#valorGlobal> "7160.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/25976089000157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/32449467000100> <http://example.org/contracts#nomeRazaoSocialFornecedor> "SOLERO COMERCIO VAREJISTA LTDA" .
+<http://example.org/contracts/Contrato/2025NE000655> <http://example.org/contracts#numeroContrato> "2025NE000655" .
+<http://example.org/contracts/Contrato/2025NE000703> <http://example.org/contracts#numeroContrato> "2025NE000703" .
+<http://example.org/contracts/Contrato/2025NE000656> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/59594498000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000797> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/32163711000173> .
+<http://example.org/contracts/Contrato/2025NE000332> <http://example.org/contracts#valorGlobal> "1200.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/09310524000153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/02482141000113> <http://example.org/contracts#nomeRazaoSocialFornecedor> "DENTAL BONSUCESSO PRODUTOS ODONTOLOGICOS LTDA" .
+<http://example.org/contracts/Contrato/2025NE000790> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/11718718000134> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ODONTOTECE ASSISTENCIA TECNICA DE EQUIPAMENTOS MEDICOS E ODONTOLOGICOS LTDA" .
+<http://example.org/contracts/Contrato/2025NE000448> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00038%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000388> <http://example.org/contracts#numeroContrato> "2025NE000388" .
+<http://example.org/contracts/Contrato/2025NE000279> <http://example.org/contracts#numeroContrato> "2025NE000279" .
+<http://example.org/contracts/Contrato/2025NE000819> <http://example.org/contracts#valorGlobal> "67463.36"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000542> <http://example.org/contracts#valorGlobal> "664.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000851> <http://example.org/contracts#numeroContrato> "2025NE000851" .
+<http://example.org/contracts/Contrato/2025NE000703> <http://example.org/contracts#valorGlobal> "6806.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00025%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000366> <http://example.org/contracts#numeroContrato> "2025NE000366" .
+<http://example.org/contracts/Contrato/2025NE000397> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/14566765000106> .
+<http://example.org/contracts/Contrato/00002%2F2025> <http://example.org/contracts#numeroContrato> "00002/2025" .
+<http://example.org/contracts/Contrato/00004%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00002%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/28422260000174> .
+<http://example.org/contracts/Contrato/00002%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000501> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/28857335000140> <http://example.org/contracts#nomeRazaoSocialFornecedor> "MAXIMA DENTAL IMPORTACAO, EXPORTACAO E COMERCIO DE PRODUTOS ODONTOLOGICOS LTDA" .
+<http://example.org/contracts/Supplier/04614281000123> <http://example.org/contracts#nomeRazaoSocialFornecedor> "INSTITUTO ATLANTICO" .
+<http://example.org/contracts/Contrato/00001%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00005%2F2025> <http://example.org/contracts#numeroContrato> "00005/2025" .
+<http://example.org/contracts/Contrato/2025NE000764> <http://example.org/contracts#numeroContrato> "2025NE000764" .
+<http://example.org/contracts/Contrato/2025NE000423> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/12309446000181> <http://example.org/contracts#nomeRazaoSocialFornecedor> "WELLINGTON IZIDIO DE OLIVEIRA" .
+<http://example.org/contracts/Contrato/2025NE001004> <http://example.org/contracts#numeroContrato> "2025NE001004" .
+<http://example.org/contracts/Supplier/20402099000165> <http://example.org/contracts#nomeRazaoSocialFornecedor> "PRESTAMED HOSPITALAR LTDA" .
+<http://example.org/contracts/Contrato/2025NE000579> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/10498974000281> .
+<http://example.org/contracts/Contrato/2025NE000896> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/28857335000140> .
+<http://example.org/contracts/Contrato/00098%2F2024> <http://example.org/contracts#valorGlobal> "14736000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/07737878000153> <http://example.org/contracts#nomeRazaoSocialFornecedor> "GALLUS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA" .
+<http://example.org/contracts/Contrato/00016%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00011%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000914> <http://example.org/contracts#valorGlobal> "2000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000452> <http://example.org/contracts#numeroContrato> "2025NE000452" .
+<http://example.org/contracts/Contrato/00007%2F2025> <http://example.org/contracts#valorGlobal> "1614704.79"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00045%2F2025> <http://example.org/contracts#valorGlobal> "80000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000388> <http://example.org/contracts#valorGlobal> "600.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000807> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/04880181000149> .
+<http://example.org/contracts/Contrato/2025NE000497> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/08924875000191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00016%2F2025> <http://example.org/contracts#numeroContrato> "00016/2025" .
+<http://example.org/contracts/Contrato/2025NE000390> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000851> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/53568001000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000335> <http://example.org/contracts#numeroContrato> "2025NE000335" .
+<http://example.org/contracts/Contrato/2025NE000495> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/30597921000144> .
+<http://example.org/contracts/Contrato/00001%2F2025> <http://example.org/contracts#numeroContrato> "00001/2025" .
+<http://example.org/contracts/Contrato/00005%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000390> <http://example.org/contracts#numeroContrato> "2025NE000390" .
+<http://example.org/contracts/Supplier/26348306000127> <http://example.org/contracts#nomeRazaoSocialFornecedor> "T&T INDUSTRIA, COMERCIO, IMPORTACAO E EXPORTACAO LTDA" .
+<http://example.org/contracts/Contrato/2025NE000438> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/14213878000110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000732> <http://example.org/contracts#valorGlobal> "30149.4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00035%2F2025> <http://example.org/contracts#numeroContrato> "00035/2025" .
+<http://example.org/contracts/Contrato/00017%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000667> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/15258821000108> .
+<http://example.org/contracts/Contrato/2025NE000763> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/38138754000185> .
+<http://example.org/contracts/Contrato/2025NE000732> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000581> <http://example.org/contracts#valorGlobal> "2750.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/13395341000155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000371> <http://example.org/contracts#valorGlobal> "8654.25"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00010%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000497> <http://example.org/contracts#numeroContrato> "2025NE000497" .
+<http://example.org/contracts/Supplier/25976089000157> <http://example.org/contracts#nomeRazaoSocialFornecedor> "CONSELHO NACIONAL DOS DIRIGENTES DAS ESCOLAS DE EDUCACAO BASICA DAS INSTITUICOES" .
+<http://example.org/contracts/Contrato/2025NE000299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000787> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00014%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000438> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/36280886000111> .
+<http://example.org/contracts/Contrato/2025NE000735> <http://example.org/contracts#numeroContrato> "2025NE000735" .
+<http://example.org/contracts/Contrato/2025NE000113> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/26395502000152> .
+<http://example.org/contracts/Contrato/00022%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000279> <http://example.org/contracts#valorGlobal> "6200.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00007%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/02014521000123> .
+<http://example.org/contracts/Contrato/2025NE000334> <http://example.org/contracts#valorGlobal> "8576.2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000568> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/11806275000133> <http://example.org/contracts#nomeRazaoSocialFornecedor> "UNIVERSIDADE FEDERAL DA INTEGRAÇÃO LATINO-AMERICANA - UNILA" .
+<http://example.org/contracts/Contrato/00050%2F2025> <http://example.org/contracts#numeroContrato> "00050/2025" .
+<http://example.org/contracts/Contrato/2025NE000859> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08885380000109> .
+<http://example.org/contracts/Contrato/2025NE000655> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000621> <http://example.org/contracts#numeroContrato> "2025NE000621" .
+<http://example.org/contracts/Contrato/2025NE000860> <http://example.org/contracts#numeroContrato> "2025NE000860" .
+<http://example.org/contracts/Supplier/00174282000143> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000311> <http://example.org/contracts#valorGlobal> "33900.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000299> <http://example.org/contracts#valorGlobal> "3600.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00025%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Supplier/46339373000192> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00027%2F2025> <http://example.org/contracts#valorGlobal> "3459511.79"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00022%2F2025> <http://example.org/contracts#numeroContrato> "00022/2025" .
+<http://example.org/contracts/Contrato/2025NE000938> <http://example.org/contracts#valorGlobal> "2732.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00022%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/05330436000162> .
+<http://example.org/contracts/Contrato/2025NE000371> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/23460299000162> .
+<http://example.org/contracts/Supplier/32654902000138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/20501854000169> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ALCANCE ENGENHARIA E CONSTRUCAO LTDA" .
+<http://example.org/contracts/Contrato/2025NE000568> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/36280886000111> .
+<http://example.org/contracts/Contrato/00027%2F2025> <http://example.org/contracts#valorGlobal> "90000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/31302808000157> <http://example.org/contracts#nomeRazaoSocialFornecedor> "FUNDACAO DE APOIO A CULTURA, A PESQUISA E AO DESENVOLVIMENTO INSTITUCIONAL, CIEN" .
+<http://example.org/contracts/Contrato/2025NE000348> <http://example.org/contracts#numeroContrato> "2025NE000348" .
+<http://example.org/contracts/Contrato/2025NE000649> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/10498974000281> .
+<http://example.org/contracts/Contrato/2025NE000346> <http://example.org/contracts#numeroContrato> "2025NE000346" .
+<http://example.org/contracts/Contrato/2025NE000794> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00028%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/12991532000117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/25329901000152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000782> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00025%2F2025> <http://example.org/contracts#numeroContrato> "00025/2025" .
+<http://example.org/contracts/Contrato/00017%2F2025> <http://example.org/contracts#numeroContrato> "00017/2025" .
+<http://example.org/contracts/Contrato/2025NE000812> <http://example.org/contracts#numeroContrato> "2025NE000812" .
+<http://example.org/contracts/Contrato/2025NE000369> <http://example.org/contracts#valorGlobal> "7160.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00030%2F2025> <http://example.org/contracts#numeroContrato> "00030/2025" .
+<http://example.org/contracts/Supplier/04074457000100> <http://example.org/contracts#nomeRazaoSocialFornecedor> "CENTRO DE TECNOLOGIA MINERAL" .
+<http://example.org/contracts/Contrato/2025NE000649> <http://example.org/contracts#numeroContrato> "2025NE000649" .
+<http://example.org/contracts/Contrato/2025NE000630> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/10661512000152> .
+<http://example.org/contracts/Supplier/41760180000197> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00043%2F2025> <http://example.org/contracts#valorGlobal> "113070.57"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000334> <http://example.org/contracts#numeroContrato> "2025NE000334" .
+<http://example.org/contracts/Supplier/07954480000179> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000831> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000780> <http://example.org/contracts#valorGlobal> "500.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000721> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00040%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/54416857000116> <http://example.org/contracts#nomeRazaoSocialFornecedor> "L & C PARTICIPACOES E COMERCIO LTDA" .
+<http://example.org/contracts/Contrato/00001%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000514> <http://example.org/contracts#valorGlobal> "40920.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000700> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/46722382000168> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ECOMAQ SERVICOS LTDA" .
+<http://example.org/contracts/Contrato/2025NE000589> <http://example.org/contracts#valorGlobal> "2000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000579> <http://example.org/contracts#valorGlobal> "13500.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00017%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Supplier/10661512000152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00003%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07954480000179> .
+<http://example.org/contracts/Contrato/00022%2F2025> <http://example.org/contracts#valorGlobal> "1809000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000736> <http://example.org/contracts#numeroContrato> "2025NE000736" .
+<http://example.org/contracts/Contrato/00031%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00010%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/37869010000178> .
+<http://example.org/contracts/Supplier/08924875000191> <http://example.org/contracts#nomeRazaoSocialFornecedor> "BIOVALIC COMERCIO DE EQUIPAMENTOS MEDICOS LTDA." .
+<http://example.org/contracts/Contrato/2025NE000335> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/26686422000156> .
+<http://example.org/contracts/Contrato/00010%2F2025> <http://example.org/contracts#valorGlobal> "340100.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/01151850000153> <http://example.org/contracts#nomeRazaoSocialFornecedor> "LUDWIG BIOTECNOLOGIA LTDA" .
+<http://example.org/contracts/Contrato/00016%2F2025> <http://example.org/contracts#valorGlobal> "322191.17"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00007%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Supplier/02437460000107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000289> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/33587022000159> .
+<http://example.org/contracts/Supplier/53588462000138> <http://example.org/contracts#nomeRazaoSocialFornecedor> "53.588.462 MARIA EDUARDA DOS SANTOS VICENTE" .
+<http://example.org/contracts/Contrato/2025NE000812> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08924875000191> .
+<http://example.org/contracts/Supplier/28933805000107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00013%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/31302808000157> .
+<http://example.org/contracts/Contrato/2025NE000799> <http://example.org/contracts#numeroContrato> "2025NE000799" .
+<http://example.org/contracts/Contrato/2025NE000773> <http://example.org/contracts#numeroContrato> "2025NE000773" .
+<http://example.org/contracts/Contrato/2025NE000116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000355> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/13859951000162> .
+<http://example.org/contracts/Supplier/06153182000117> <http://example.org/contracts#nomeRazaoSocialFornecedor> "LILIANE ALARCAO DIAS CORREA RAMANZINI" .
+<http://example.org/contracts/Contrato/00029%2F2025> <http://example.org/contracts#valorGlobal> "81360.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00034%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000702> <http://example.org/contracts#valorGlobal> "2610.82"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000938> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/58119462000102> .
+<http://example.org/contracts/Contrato/2025NE000422> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/49506242000140> <http://example.org/contracts#nomeRazaoSocialFornecedor> "HALOGENN QUIMICA CIENTIFICA COMERCIO LTDA" .
+<http://example.org/contracts/Contrato/2025NE000297> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00005%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07191406000148> .
+<http://example.org/contracts/Contrato/2025NE000831> <http://example.org/contracts#valorGlobal> "1149.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000300> <http://example.org/contracts#valorGlobal> "8870.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/02908738000187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000837> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00010%2F2025> <http://example.org/contracts#valorGlobal> "35880.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/78809530000172> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000425> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/26562346000177> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/28857335000140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000702> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/25976089000157> .
+<http://example.org/contracts/Contrato/2025NE000449> <http://example.org/contracts#numeroContrato> "2025NE000449" .
+<http://example.org/contracts/Supplier/30597921000144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000333> <http://example.org/contracts#numeroContrato> "2025NE000333" .
+<http://example.org/contracts/Contrato/2025NE000667> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000345> <http://example.org/contracts#numeroContrato> "2025NE000345" .
+<http://example.org/contracts/Contrato/00006%2F2025> <http://example.org/contracts#valorGlobal> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000509> <http://example.org/contracts#valorGlobal> "35751.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00020%2F2025> <http://example.org/contracts#valorGlobal> "4577987.84"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/26686422000156> <http://example.org/contracts#nomeRazaoSocialFornecedor> "PIUNATURE COMERCIO DE COSMETICOS E ALIMENTOS LTDA" .
+<http://example.org/contracts/Supplier/68905074000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000736> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00028%2F2025> <http://example.org/contracts#valorGlobal> "852000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000728> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/01612710000135> .
+<http://example.org/contracts/Contrato/2025NE000787> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/40411391000151> .
+<http://example.org/contracts/Contrato/00030%2F2025> <http://example.org/contracts#valorGlobal> "441000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000365> <http://example.org/contracts#valorGlobal> "7800.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000581> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/29978236000189> .
+<http://example.org/contracts/Contrato/2025NE000831> <http://example.org/contracts#numeroContrato> "2025NE000831" .
+<http://example.org/contracts/Contrato/2025NE000749> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000425> <http://example.org/contracts#numeroContrato> "2025NE000425" .
+<http://example.org/contracts/Supplier/12670981000163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00025%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/10498974000281> <http://example.org/contracts#nomeRazaoSocialFornecedor> "INSTITUTO NEGOCIOS PUBLICOS DO BRASIL - ESTUDOS E PESQUISAS NA ADMNIISTRACAO PUB" .
+<http://example.org/contracts/Contrato/2025NE000397> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00043%2F2025> <http://example.org/contracts#numeroContrato> "00043/2025" .
+<http://example.org/contracts/Contrato/2025NE000369> <http://example.org/contracts#numeroContrato> "2025NE000369" .
+<http://example.org/contracts/Contrato/2025NE000766> <http://example.org/contracts#numeroContrato> "2025NE000766" .
+<http://example.org/contracts/Contrato/00006%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00024%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000269> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00031%2F2025> <http://example.org/contracts#valorGlobal> "1864800.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00004%2F2025> <http://example.org/contracts#valorGlobal> "1414859.4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000365> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/28933805000107> .
+<http://example.org/contracts/Contrato/2025NE000729> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000810> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000568> <http://example.org/contracts#numeroContrato> "2025NE000568" .
+<http://example.org/contracts/Contrato/00049%2F2025> <http://example.org/contracts#numeroContrato> "00049/2025" .
+<http://example.org/contracts/Supplier/43843358000350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00009%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000448> <http://example.org/contracts#numeroContrato> "2025NE000448" .
+<http://example.org/contracts/Contrato/2025NE000397> <http://example.org/contracts#numeroContrato> "2025NE000397" .
+<http://example.org/contracts/Supplier/00174282000143> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ODONTO TCHE - COMERCIO DE PRODUTOS E EQUIPAMENTOS ODONTOLOGICOS LTDA" .
+<http://example.org/contracts/Contrato/2025NE000116> <http://example.org/contracts#numeroContrato> "2025NE000116" .
+<http://example.org/contracts/Contrato/00008%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/11718718000134> .
+<http://example.org/contracts/Contrato/2025NE000729> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/36280886000111> .
+<http://example.org/contracts/Supplier/07387343000108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/28422260000174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000115> <http://example.org/contracts#valorGlobal> "1330.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00030%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/09310524000153> .
+<http://example.org/contracts/Contrato/00016%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/05330436000162> .
+<http://example.org/contracts/Contrato/2025NE000503> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/21237303000100> .
+<http://example.org/contracts/Contrato/2025NE000266> <http://example.org/contracts#numeroContrato> "2025NE000266" .
+<http://example.org/contracts/Contrato/00003%2F2025> <http://example.org/contracts#valorGlobal> "4661738.84"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000356> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/38138754000185> .
+<http://example.org/contracts/Contrato/2025NE000791> <http://example.org/contracts#numeroContrato> "2025NE000791" .
+<http://example.org/contracts/Contrato/2025NE000294> <http://example.org/contracts#valorGlobal> "63560.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000114> <http://example.org/contracts#valorGlobal> "10705.68"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000277> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08407726000155> .
+<http://example.org/contracts/Supplier/01612710000135> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ANDREZA ALVES EVANGELISTA" .
+<http://example.org/contracts/Contrato/2025NE000613> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/32469869000176> .
+<http://example.org/contracts/Contrato/2025NE000335> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00024%2F2025> <http://example.org/contracts#valorGlobal> "186146.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000355> <http://example.org/contracts#valorGlobal> "10650.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000909> <http://example.org/contracts#numeroContrato> "2025NE000909" .
+<http://example.org/contracts/Contrato/2025NE000355> <http://example.org/contracts#numeroContrato> "2025NE000355" .
+<http://example.org/contracts/Contrato/2025NE000773> <http://example.org/contracts#valorGlobal> "203.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/19231616000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/26562346000177> <http://example.org/contracts#nomeRazaoSocialFornecedor> "THOPEN COMERCIALIZADORA DE ENERGIA LTDA" .
+<http://example.org/contracts/Contrato/2025NE000576> <http://example.org/contracts#valorGlobal> "2000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/04880181000149> <http://example.org/contracts#nomeRazaoSocialFornecedor> "AWKALAB PRODUTOS PARA LABORATORIO LTDA" .
+<http://example.org/contracts/Contrato/2025NE000632> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/51785959000110> .
+<http://example.org/contracts/Contrato/00005%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/05330436000162> .
+<http://example.org/contracts/Contrato/2025NE000740> <http://example.org/contracts#numeroContrato> "2025NE000740" .
+<http://example.org/contracts/Contrato/00047%2F2025> <http://example.org/contracts#valorGlobal> "2402827.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000338> <http://example.org/contracts#numeroContrato> "2025NE000338" .
+<http://example.org/contracts/Contrato/00035%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000831> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/38138754000185> .
+<http://example.org/contracts/Supplier/07121465000140> <http://example.org/contracts#nomeRazaoSocialFornecedor> "I M PEREIRA" .
+<http://example.org/contracts/Contrato/00036%2F2025> <http://example.org/contracts#numeroContrato> "00036/2025" .
+<http://example.org/contracts/Contrato/00015%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000348> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00010%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Supplier/50381955000104> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ANA ALVES RODRIGUES FERNANDES" .
+<http://example.org/contracts/Contrato/2025NE000700> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/54416857000116> .
+<http://example.org/contracts/Contrato/2025NE000749> <http://example.org/contracts#valorGlobal> "522.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00007%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00098%2F2024> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/13499467000170> .
+<http://example.org/contracts/Contrato/2025NE000448> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/46339373000192> .
+<http://example.org/contracts/Contrato/00098%2F2024> <http://example.org/contracts#numeroContrato> "00098/2024" .
+<http://example.org/contracts/Contrato/00032%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00030%2F2025> <http://example.org/contracts#valorGlobal> "154680.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00068%2F2024> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/04088833000107> .
+<http://example.org/contracts/Contrato/00004%2F2025> <http://example.org/contracts#numeroContrato> "00004/2025" .
+<http://example.org/contracts/Contrato/00047%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00068%2F2024> <http://example.org/contracts#numeroContrato> "00068/2024" .
+<http://example.org/contracts/Contrato/00017%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00029%2F2025> <http://example.org/contracts#numeroContrato> "00029/2025" .
+<http://example.org/contracts/Contrato/2025NE000740> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/53254670000109> .
+<http://example.org/contracts/Contrato/00006%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000294> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/21237303000100> .
+<http://example.org/contracts/Contrato/00024%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00082%2F2024> <http://example.org/contracts#numeroContrato> "00082/2024" .
+<http://example.org/contracts/Contrato/00012%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/08886401000100> <http://example.org/contracts#nomeRazaoSocialFornecedor> "DENTAL FREIRE GOULART LTDA" .
+<http://example.org/contracts/Supplier/07387343000108> <http://example.org/contracts#nomeRazaoSocialFornecedor> "MUNICIPIO DE BATURITE" .
+<http://example.org/contracts/Contrato/00030%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00082%2F2024> <http://example.org/contracts#valorGlobal> "93812905.85"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000810> <http://example.org/contracts#valorGlobal> "2600.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000860> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00014%2F2025> <http://example.org/contracts#valorGlobal> "275911.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000728> <http://example.org/contracts#numeroContrato> "2025NE000728" .
+<http://example.org/contracts/Supplier/03444532000106> <http://example.org/contracts#nomeRazaoSocialFornecedor> "CASA DAS LONAS LTDA." .
+<http://example.org/contracts/Supplier/20251882000175> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000576> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00048%2F2025> <http://example.org/contracts#numeroContrato> "00048/2025" .
+<http://example.org/contracts/Supplier/28591670000149> <http://example.org/contracts#nomeRazaoSocialFornecedor> "VETSUL COMERCIO DE MEDICAMENTOS LTDA" .
+<http://example.org/contracts/Contrato/00029%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/12208466000166> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000800> <http://example.org/contracts#valorGlobal> "50.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000449> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00022%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/07191406000148> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00048%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/31302808000157> .
+<http://example.org/contracts/Contrato/00006%2F2025> <http://example.org/contracts#numeroContrato> "00006/2025" .
+<http://example.org/contracts/Contrato/00026%2F2025> <http://example.org/contracts#valorGlobal> "612000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000825> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/53568001000101> .
+<http://example.org/contracts/Contrato/2025NE000302> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000269> <http://example.org/contracts#valorGlobal> "10330.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00068%2F2024> <http://example.org/contracts#valorGlobal> "4166403.3"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00017%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/05506560000136> .
+<http://example.org/contracts/Contrato/2025NE000823> <http://example.org/contracts#valorGlobal> "47197.34"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/43504849000105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000266> <http://example.org/contracts#valorGlobal> "10330.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00068%2F2024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00029%2F2025> <http://example.org/contracts#valorGlobal> "417726.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000576> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/00572276000144> .
+<http://example.org/contracts/Contrato/2025NE000346> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/22569484000127> <http://example.org/contracts#nomeRazaoSocialFornecedor> "LSC COMERCIAL LTDA" .
+<http://example.org/contracts/Supplier/29212628000132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000422> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/21237303000100> .
+<http://example.org/contracts/Contrato/00002%2F2025> <http://example.org/contracts#valorGlobal> "1756683.31"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000334> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/46339373000192> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ALC MORAES COMERCIAL LTDA." .
+<http://example.org/contracts/Supplier/58119462000102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000341> <http://example.org/contracts#numeroContrato> "2025NE000341" .
+<http://example.org/contracts/Contrato/2025NE000621> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/22527686000106> .
+<http://example.org/contracts/Contrato/2025NE000764> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00001%2F2025> <http://example.org/contracts#valorGlobal> "5446323.15"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/05330436000162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000938> <http://example.org/contracts#numeroContrato> "2025NE000938" .
+<http://example.org/contracts/Contrato/2025NE000356> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000368> <http://example.org/contracts#numeroContrato> "2025NE000368" .
+<http://example.org/contracts/Supplier/30115422000173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/06750525000120> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000943> <http://example.org/contracts#numeroContrato> "2025NE000943" .
+<http://example.org/contracts/Contrato/2025NE000633> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/21237303000100> .
+<http://example.org/contracts/Supplier/12904870000174> <http://example.org/contracts#nomeRazaoSocialFornecedor> "DATA BRASIL EPIS E TREINAMENTOS LTDA" .
+<http://example.org/contracts/Contrato/2025NE000794> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/12904870000174> .
+<http://example.org/contracts/Supplier/23492879000131> <http://example.org/contracts#nomeRazaoSocialFornecedor> "F T S SERVICOS DE CONSTRUCOES LTDA" .
+<http://example.org/contracts/Supplier/51477402000112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000112> <http://example.org/contracts#valorGlobal> "1675.24"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000501> <http://example.org/contracts#numeroContrato> "2025NE000501" .
+<http://example.org/contracts/Contrato/00012%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000790> <http://example.org/contracts#valorGlobal> "1304.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/49506242000140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000446> <http://example.org/contracts#valorGlobal> "821.47"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/09134068000138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00008%2F2025> <http://example.org/contracts#numeroContrato> "00008/2025" .
+<http://example.org/contracts/Contrato/00011%2F2025> <http://example.org/contracts#numeroContrato> "00011/2025" .
+<http://example.org/contracts/Contrato/2025NE000450> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00003%2F2025> <http://example.org/contracts#valorGlobal> "3258482.38"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000860> <http://example.org/contracts#valorGlobal> "1994.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00029%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000938> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000502> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/51785959000110> .
+<http://example.org/contracts/Supplier/00572276000144> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ASSOC NACIONAL DOS PROGRAMAS DE POS-GRAD COMUNICACAO" .
+<http://example.org/contracts/Contrato/2025NE000300> <http://example.org/contracts#numeroContrato> "2025NE000300" .
+<http://example.org/contracts/Contrato/2025NE000759> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000799> <http://example.org/contracts#valorGlobal> "70.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00019%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000242> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/03825354000163> .
+<http://example.org/contracts/Contrato/2025NE000799> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/09134068000138> .
+<http://example.org/contracts/Contrato/2025NE000514> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000794> <http://example.org/contracts#numeroContrato> "2025NE000794" .
+<http://example.org/contracts/Contrato/2025NE000809> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000115> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000779> <http://example.org/contracts#numeroContrato> "2025NE000779" .
+<http://example.org/contracts/Contrato/00018%2F2025> <http://example.org/contracts#valorGlobal> "287600.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000928> <http://example.org/contracts#valorGlobal> "39826.8"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000115> <http://example.org/contracts#numeroContrato> "2025NE000115" .
+<http://example.org/contracts/Contrato/00020%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00048%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000928> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000906> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/07817778000137> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00010%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000269> <http://example.org/contracts#numeroContrato> "2025NE000269" .
+<http://example.org/contracts/Supplier/15258821000108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000438> <http://example.org/contracts#numeroContrato> "2025NE000438" .
+<http://example.org/contracts/Supplier/52996455000102> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ELEVATE UTILIDADES LTDA" .
+<http://example.org/contracts/Contrato/2025NE000796> <http://example.org/contracts#numeroContrato> "2025NE000796" .
+<http://example.org/contracts/Supplier/07737878000153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/05506560000136> <http://example.org/contracts#nomeRazaoSocialFornecedor> "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR" .
+<http://example.org/contracts/Contrato/00016%2F2025> <http://example.org/contracts#valorGlobal> "5477084.07"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000277> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000235> <http://example.org/contracts#numeroContrato> "2025NE000235" .
+<http://example.org/contracts/Contrato/00021%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/11718718000134> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000630> <http://example.org/contracts#numeroContrato> "2025NE000630" .
+<http://example.org/contracts/Contrato/2025NE000333> <http://example.org/contracts#valorGlobal> "8010.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000633> <http://example.org/contracts#numeroContrato> "2025NE000633" .
+<http://example.org/contracts/Contrato/2025NE000446> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/28591670000149> .
+<http://example.org/contracts/Supplier/38138754000185> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/04088833000107> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000297> <http://example.org/contracts#numeroContrato> "2025NE000297" .
+<http://example.org/contracts/Contrato/00021%2F2025> <http://example.org/contracts#valorGlobal> "775540.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000729> <http://example.org/contracts#numeroContrato> "2025NE000729" .
+<http://example.org/contracts/Supplier/00449079000132> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ASSOC.NAC.PESQUISA E POS GRADUACAO EM CIENCIA DA INFORM" .
+<http://example.org/contracts/Contrato/00023%2F2025> <http://example.org/contracts#valorGlobal> "34989.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00017%2F2025> <http://example.org/contracts#valorGlobal> "318960.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000763> <http://example.org/contracts#numeroContrato> "2025NE000763" .
+<http://example.org/contracts/Contrato/2025NE000568> <http://example.org/contracts#valorGlobal> "416.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000823> <http://example.org/contracts#numeroContrato> "2025NE000823" .
+<http://example.org/contracts/Contrato/2025NE000784> <http://example.org/contracts#numeroContrato> "2025NE000784" .
+<http://example.org/contracts/Contrato/2025NE000705> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000807> <http://example.org/contracts#numeroContrato> "2025NE000807" .
+<http://example.org/contracts/Contrato/00042%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Supplier/50567060000169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000276> <http://example.org/contracts#valorGlobal> "2560.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000779> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00018%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000775> <http://example.org/contracts#valorGlobal> "2600.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000735> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/32654902000138> .
+<http://example.org/contracts/Contrato/00027%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Supplier/30597921000144> <http://example.org/contracts#nomeRazaoSocialFornecedor> "IS 8 INTERNATIONAL SUPPLIES IMPORTACAO E COMERCIO DE PRODUTOS HOSPITALARES LTDA" .
+<http://example.org/contracts/Contrato/00005%2F2025> <http://example.org/contracts#valorGlobal> "962261.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/37117510000153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000837> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/30115422000173> .
+<http://example.org/contracts/Contrato/00014%2F2025> <http://example.org/contracts#numeroContrato> "00014/2025" .
+<http://example.org/contracts/Contrato/2025NE000438> <http://example.org/contracts#valorGlobal> "170.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000450> <http://example.org/contracts#numeroContrato> "2025NE000450" .
+<http://example.org/contracts/Supplier/11822269000170> <http://example.org/contracts#nomeRazaoSocialFornecedor> "SUPERINTENDENCIA ESTADUAL DO MEIO AMBIENTE-SEMACE" .
+<http://example.org/contracts/Contrato/00034%2F2025> <http://example.org/contracts#numeroContrato> "00034/2025" .
+<http://example.org/contracts/Contrato/2025NE000483> <http://example.org/contracts#valorGlobal> "85.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000344> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/14556855000108> .
+<http://example.org/contracts/Contrato/2025NE000735> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00013%2F2025> <http://example.org/contracts#valorGlobal> "719136.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000299> <http://example.org/contracts#numeroContrato> "2025NE000299" .
+<http://example.org/contracts/Supplier/14556855000108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000749> <http://example.org/contracts#numeroContrato> "2025NE000749" .
+<http://example.org/contracts/Contrato/2025NE000811> <http://example.org/contracts#numeroContrato> "2025NE000811" .
+<http://example.org/contracts/Supplier/30479645000110> <http://example.org/contracts#nomeRazaoSocialFornecedor> "AMR SOLUCOES LABORATORIAIS LTDA" .
+<http://example.org/contracts/Supplier/28422260000174> <http://example.org/contracts#nomeRazaoSocialFornecedor> "NEWSUN ENERGY BRAZIL S.A." .
+<http://example.org/contracts/Contrato/2025NE000860> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/09056231000191> .
+<http://example.org/contracts/Contrato/00013%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000289> <http://example.org/contracts#valorGlobal> "4872.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00026%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/11806275000133> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00012%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000825> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00003%2F2025> <http://example.org/contracts#numeroContrato> "00003/2025" .
+<http://example.org/contracts/Supplier/01151850000153> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/14556855000108> <http://example.org/contracts#nomeRazaoSocialFornecedor> "PAULO CESAR AGOSTINI ORTOPEDICOS" .
+<http://example.org/contracts/Contrato/2025NE000705> <http://example.org/contracts#valorGlobal> "265.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000339> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000267> <http://example.org/contracts#valorGlobal> "53700.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000509> <http://example.org/contracts#numeroContrato> "2025NE000509" .
+<http://example.org/contracts/Contrato/2025NE000896> <http://example.org/contracts#numeroContrato> "2025NE000896" .
+<http://example.org/contracts/Contrato/2025NE000447> <http://example.org/contracts#numeroContrato> "2025NE000447" .
+<http://example.org/contracts/Contrato/00024%2F2025> <http://example.org/contracts#valorGlobal> "419777.93"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00042%2F2025> <http://example.org/contracts#valorGlobal> "13552.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00012%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/05330436000162> .
+<http://example.org/contracts/Contrato/2025NE000914> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/78809530000172> .
+<http://example.org/contracts/Contrato/2025NE000773> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000721> <http://example.org/contracts#valorGlobal> "2475.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000423> <http://example.org/contracts#valorGlobal> "20.98"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00015%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000296> <http://example.org/contracts#numeroContrato> "2025NE000296" .
+<http://example.org/contracts/Supplier/53254670000109> <http://example.org/contracts#nomeRazaoSocialFornecedor> "EB DISTRIBUIDORA LTDA" .
+<http://example.org/contracts/Supplier/02482141000113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000764> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/53254670000109> .
+<http://example.org/contracts/Contrato/2025NE000448> <http://example.org/contracts#valorGlobal> "2468.88"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000784> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/13395341000155> .
+<http://example.org/contracts/Contrato/2025NE000764> <http://example.org/contracts#valorGlobal> "15120.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00020%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/03508097000136> .
+<http://example.org/contracts/Contrato/2025NE000302> <http://example.org/contracts#numeroContrato> "2025NE000302" .
+<http://example.org/contracts/Contrato/2025NE000371> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000368> <http://example.org/contracts#valorGlobal> "498.25"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000859> <http://example.org/contracts#numeroContrato> "2025NE000859" .
+<http://example.org/contracts/Contrato/2025NE000784> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00001%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/46722382000168> .
+<http://example.org/contracts/Contrato/2025NE000510> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00020%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000794> <http://example.org/contracts#valorGlobal> "11290.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00006%2F2025> <http://example.org/contracts#valorGlobal> "2422401.09"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000810> <http://example.org/contracts#numeroContrato> "2025NE000810" .
+<http://example.org/contracts/Contrato/2025NE000780> <http://example.org/contracts#numeroContrato> "2025NE000780" .
+<http://example.org/contracts/Contrato/2025NE000509> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/10661512000152> .
+<http://example.org/contracts/Contrato/2025NE000299> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/49506242000140> .
+<http://example.org/contracts/Contrato/2025NE000759> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/38138754000185> .
+<http://example.org/contracts/Contrato/2025NE000356> <http://example.org/contracts#valorGlobal> "13373.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/51477402000112> <http://example.org/contracts#nomeRazaoSocialFornecedor> "IZZY DISTRIBUIDORA DE MATERIAL MEDICO, ODONTOLOGICO E LABORATORIAL LTDA" .
+<http://example.org/contracts/Contrato/2025NE000782> <http://example.org/contracts#numeroContrato> "2025NE000782" .
+<http://example.org/contracts/Contrato/2025NE000452> <http://example.org/contracts#valorGlobal> "1066.41"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00018%2F2025> <http://example.org/contracts#numeroContrato> "00018/2025" .
+<http://example.org/contracts/Contrato/2025NE000385> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00020%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/05330436000162> .
+<http://example.org/contracts/Contrato/00018%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00005%2F2025> <http://example.org/contracts#valorGlobal> "1145246.26"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00022%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/04964024000111> .
+<http://example.org/contracts/Contrato/00031%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000703> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/29212628000132> .
+<http://example.org/contracts/Contrato/2025NE000114> <http://example.org/contracts#numeroContrato> "2025NE000114" .
+<http://example.org/contracts/Contrato/2025NE000277> <http://example.org/contracts#numeroContrato> "2025NE000277" .
+<http://example.org/contracts/Contrato/2025NE000365> <http://example.org/contracts#numeroContrato> "2025NE000365" .
+<http://example.org/contracts/Contrato/00021%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07235800000130> .
+<http://example.org/contracts/Contrato/00023%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000649> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000279> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000242> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/52369074000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/10744098000145> <http://example.org/contracts#nomeRazaoSocialFornecedor> "INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DO CEARA" .
+<http://example.org/contracts/Supplier/06153182000117> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000156> <http://example.org/contracts#numeroContrato> "2025NE000156" .
+<http://example.org/contracts/Contrato/2025NE000156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00014%2F2025> <http://example.org/contracts#valorGlobal> "7293061.99"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00033%2F2025> <http://example.org/contracts#numeroContrato> "00033/2025" .
+<http://example.org/contracts/Contrato/2025NE000851> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/04602789000101> .
+<http://example.org/contracts/Supplier/07817778000137> <http://example.org/contracts#nomeRazaoSocialFornecedor> "SERVICO AUTONOMO DE AGUA E ESGOTO DE SOBRAL" .
+<http://example.org/contracts/Contrato/00027%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/22527686000106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/03825354000163> <http://example.org/contracts#nomeRazaoSocialFornecedor> "LIMP-TUDO SERVICOS DE LIMPEZA E CONSERVACAO LTDA" .
+<http://example.org/contracts/Contrato/00001%2F2025> <http://example.org/contracts#valorGlobal> "1800000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00025%2F2025> <http://example.org/contracts#valorGlobal> "3020590.58"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000943> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000782> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/26348306000127> .
+<http://example.org/contracts/Contrato/2025NE000631> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07737878000153> .
+<http://example.org/contracts/Contrato/2025NE000267> <http://example.org/contracts#numeroContrato> "2025NE000267" .
+<http://example.org/contracts/Supplier/07235800000130> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00026%2F2025> <http://example.org/contracts#numeroContrato> "00026/2025" .
+<http://example.org/contracts/Contrato/00035%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/04958321000154> .
+<http://example.org/contracts/Contrato/2025NE000702> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/12670981000163> <http://example.org/contracts#nomeRazaoSocialFornecedor> "PROTEGGERE COMERCIO DE EPIS LTDA" .
+<http://example.org/contracts/Contrato/00015%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00004%2F2025> <http://example.org/contracts#valorGlobal> "7306706.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/36280886000111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/20402099000165> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000784> <http://example.org/contracts#valorGlobal> "553.4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000348> <http://example.org/contracts#valorGlobal> "9971.15"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000495> <http://example.org/contracts#valorGlobal> "7087.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/41760180000197> <http://example.org/contracts#nomeRazaoSocialFornecedor> "MIRAIMA GAS & TRANSPORTES LTDA" .
+<http://example.org/contracts/Contrato/2025NE000779> <http://example.org/contracts#valorGlobal> "303.4"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/26644910000109> <http://example.org/contracts#nomeRazaoSocialFornecedor> "COMERCIAL RIOS PRODUTOS DE LIMPEZA, DESCARTAVEIS E PAPELARIA LTDA" .
+<http://example.org/contracts/Contrato/2025NE000906> <http://example.org/contracts#valorGlobal> "7888.46"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000346> <http://example.org/contracts#valorGlobal> "2345.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00026%2F2025> <http://example.org/contracts#valorGlobal> "5562773.51"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/31302808000157> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000447> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/50381955000104> .
+<http://example.org/contracts/Contrato/00048%2F2025> <http://example.org/contracts#valorGlobal> "5983084.64"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/29868059000188> <http://example.org/contracts#nomeRazaoSocialFornecedor> "HOSPITALMED LTDA" .
+<http://example.org/contracts/Supplier/07135668000195> <http://example.org/contracts#nomeRazaoSocialFornecedor> "DEPARTAMENTO ESTADUAL DE TRANSITO" .
+<http://example.org/contracts/Contrato/2025NE000235> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/02482141000113> .
+<http://example.org/contracts/Supplier/26686422000156> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000589> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/78809530000172> .
+<http://example.org/contracts/Supplier/51785959000110> <http://example.org/contracts#nomeRazaoSocialFornecedor> "LICITAO AGRONEGOCIO LTDA" .
+<http://example.org/contracts/Contrato/2025NE000278> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000242> <http://example.org/contracts#valorGlobal> "30000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000267> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000780> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/50116864000141> .
+<http://example.org/contracts/Contrato/00003%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000581> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00046%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000278> <http://example.org/contracts#numeroContrato> "2025NE000278" .
+<http://example.org/contracts/Contrato/2025NE000235> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000765> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000819> <http://example.org/contracts#numeroContrato> "2025NE000819" .
+<http://example.org/contracts/Contrato/00013%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00014%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/11806275000133> .
+<http://example.org/contracts/Contrato/2025NE000759> <http://example.org/contracts#valorGlobal> "12336.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000943> <http://example.org/contracts#valorGlobal> "1500.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE001004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000436> <http://example.org/contracts#numeroContrato> "2025NE000436" .
+<http://example.org/contracts/Contrato/2025NE000825> <http://example.org/contracts#numeroContrato> "2025NE000825" .
+<http://example.org/contracts/Contrato/2025NE000436> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/10661512000152> .
+<http://example.org/contracts/Contrato/2025NE000243> <http://example.org/contracts#numeroContrato> "2025NE000243" .
+<http://example.org/contracts/Contrato/2025NE000798> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/10661512000152> .
+<http://example.org/contracts/Contrato/2025NE000345> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/02908738000187> .
+<http://example.org/contracts/Contrato/00014%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/46722382000168> .
+<http://example.org/contracts/Contrato/2025NE000495> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000807> <http://example.org/contracts#valorGlobal> "133.86"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00018%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/52996455000102> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000371> <http://example.org/contracts#numeroContrato> "2025NE000371" .
+<http://example.org/contracts/Contrato/2025NE000346> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/22077847000107> .
+<http://example.org/contracts/Contrato/2025NE000397> <http://example.org/contracts#valorGlobal> "620.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/32654902000138> <http://example.org/contracts#nomeRazaoSocialFornecedor> "PLENA DISTRIBUIDORA DE MATERIAIS ELETRICOS E HIDRAULICOS LTDA" .
+<http://example.org/contracts/Contrato/00082%2F2024> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/26562346000177> .
+<http://example.org/contracts/Supplier/04602789000101> <http://example.org/contracts#nomeRazaoSocialFornecedor> "DATEN TECNOLOGIA LTDA" .
+<http://example.org/contracts/Contrato/2025NE000572> <http://example.org/contracts#valorGlobal> "1775.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00032%2F2025> <http://example.org/contracts#numeroContrato> "00032/2025" .
+<http://example.org/contracts/Supplier/02014521000123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/08918421000108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000266> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00003%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/11638690000125> .
+<http://example.org/contracts/Supplier/04880181000149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/11822269000170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000296> <http://example.org/contracts#valorGlobal> "1080.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000732> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/53254670000109> .
+<http://example.org/contracts/Contrato/00041%2F2025> <http://example.org/contracts#valorGlobal> "16000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000859> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/09310524000153> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ASSISTEC COMERCIO E SERVICOS DE MATERIAIS MEDICOS E HOSPITALARES LTDA" .
+<http://example.org/contracts/Contrato/2025NE000332> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/12991532000117> .
+<http://example.org/contracts/Supplier/46722382000168> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/91828244000112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000333> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/12670981000163> .
+<http://example.org/contracts/Contrato/2025NE000795> <http://example.org/contracts#numeroContrato> "2025NE000795" .
+<http://example.org/contracts/Supplier/73334666000150> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000779> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/06153182000117> .
+<http://example.org/contracts/Supplier/07121465000140> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000702> <http://example.org/contracts#numeroContrato> "2025NE000702" .
+<http://example.org/contracts/Supplier/02908738000187> <http://example.org/contracts#nomeRazaoSocialFornecedor> "F G COMERCIAL DE PRODUTOS HOSPITALARES LTDA" .
+<http://example.org/contracts/Supplier/14566765000106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00021%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/06750525000120> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ASSEMBLEIA LEGISLATIVA DO ESTADO DO CEARÁ" .
+<http://example.org/contracts/Contrato/2025NE000914> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/11638690000125> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00007%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/31302808000157> .
+<http://example.org/contracts/Supplier/68905074000100> <http://example.org/contracts#nomeRazaoSocialFornecedor> "DGA DISTRIBUIDORA LTDA" .
+<http://example.org/contracts/Contrato/00006%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/41428781000105> .
+<http://example.org/contracts/Contrato/2025NE000633> <http://example.org/contracts#valorGlobal> "833.86"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000811> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/22077847000107> .
+<http://example.org/contracts/Contrato/00011%2F2025> <http://example.org/contracts#valorGlobal> "733667.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000809> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/50567060000169> .
+<http://example.org/contracts/Contrato/2025NE000366> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000791> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/52369074000101> .
+<http://example.org/contracts/Contrato/00024%2F2025> <http://example.org/contracts#numeroContrato> "00024/2025" .
+<http://example.org/contracts/Contrato/2025NE000581> <http://example.org/contracts#numeroContrato> "2025NE000581" .
+<http://example.org/contracts/Supplier/13859951000162> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000339> <http://example.org/contracts#valorGlobal> "60.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/04088833000107> <http://example.org/contracts#nomeRazaoSocialFornecedor> "VC PROMOCOES E EVENTOS LTDA" .
+<http://example.org/contracts/Supplier/08885380000109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000735> <http://example.org/contracts#valorGlobal> "3150.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00002%2F2025> <http://example.org/contracts#valorGlobal> "123272.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/05506560000136> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000451> <http://example.org/contracts#numeroContrato> "2025NE000451" .
+<http://example.org/contracts/Contrato/00041%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00008%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/02014521000123> .
+<http://example.org/contracts/Contrato/00049%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000810> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08886401000100> .
+<http://example.org/contracts/Contrato/2025NE000896> <http://example.org/contracts#valorGlobal> "2397.36"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000928> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07737878000153> .
+<http://example.org/contracts/Supplier/32469869000176> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000311> <http://example.org/contracts#numeroContrato> "2025NE000311" .
+<http://example.org/contracts/Contrato/2025NE000390> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/29212628000132> .
+<http://example.org/contracts/Supplier/09134068000138> <http://example.org/contracts#nomeRazaoSocialFornecedor> "OBAH PRODUTOS E SERVICOS ANALITICOS LTDA" .
+<http://example.org/contracts/Contrato/2025NE000732> <http://example.org/contracts#numeroContrato> "2025NE000732" .
+<http://example.org/contracts/Contrato/2025NE000729> <http://example.org/contracts#valorGlobal> "1028.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000775> <http://example.org/contracts#numeroContrato> "2025NE000775" .
+<http://example.org/contracts/Contrato/00027%2F2025> <http://example.org/contracts#numeroContrato> "00027/2025" .
+<http://example.org/contracts/Supplier/03804327000104> <http://example.org/contracts#nomeRazaoSocialFornecedor> "SERVICO SOCIAL DA INDUSTRIA - SESI" .
+<http://example.org/contracts/Contrato/00031%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/05330436000162> .
+<http://example.org/contracts/Contrato/2025NE000801> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/22569484000127> .
+<http://example.org/contracts/Contrato/2025NE000294> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00012%2F2025> <http://example.org/contracts#numeroContrato> "00012/2025" .
+<http://example.org/contracts/Contrato/2025NE000276> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/25329901000152> <http://example.org/contracts#nomeRazaoSocialFornecedor> "MGS BRASIL DISTRIBUIDORA LTDA" .
+<http://example.org/contracts/Contrato/2025NE000345> <http://example.org/contracts#valorGlobal> "1500.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/78809530000172> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ASS.NAC.DE POS-GRAD.E PESQUISA EM LETRAS E LINGUISTICA" .
+<http://example.org/contracts/Contrato/00028%2F2025> <http://example.org/contracts#valorGlobal> "250549.18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000745> <http://example.org/contracts#numeroContrato> "2025NE000745" .
+<http://example.org/contracts/Contrato/2025NE000631> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00019%2F2025> <http://example.org/contracts#valorGlobal> "34989.9"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00026%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/26395502000152> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000295> <http://example.org/contracts#numeroContrato> "2025NE000295" .
+<http://example.org/contracts/Supplier/09056231000191> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000449> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/21237303000100> .
+<http://example.org/contracts/Supplier/58119462000102> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ASS NAC DE PESQUISA E POSGRADUACAO EM PSICOLOGIA-ANPEPP" .
+<http://example.org/contracts/Contrato/2025NE000296> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08407726000155> .
+<http://example.org/contracts/Supplier/04614281000123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000812> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000797> <http://example.org/contracts#valorGlobal> "3450.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/15258821000108> <http://example.org/contracts#nomeRazaoSocialFornecedor> "FORUM NACIONAL DE GESTORES DE INOVACAO E TRANSFERENCIA DE TECNOLOGIA - FORTEC" .
+<http://example.org/contracts/Supplier/14283887000187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000495> <http://example.org/contracts#numeroContrato> "2025NE000495" .
+<http://example.org/contracts/Contrato/2025NE000632> <http://example.org/contracts#valorGlobal> "14921.52"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/40411391000151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00001%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/11822269000170> .
+<http://example.org/contracts/Supplier/33587022000159> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000765> <http://example.org/contracts#valorGlobal> "1590.75"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000510> <http://example.org/contracts#numeroContrato> "2025NE000510" .
+<http://example.org/contracts/Supplier/19231616000100> <http://example.org/contracts#nomeRazaoSocialFornecedor> "R. DE F. TORRES MOLITERNO LTDA" .
+<http://example.org/contracts/Supplier/01914765000108> <http://example.org/contracts#nomeRazaoSocialFornecedor> "INFORMA MARKETS LTDA." .
+<http://example.org/contracts/Supplier/13499467000170> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000243> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000295> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/10661512000152> .
+<http://example.org/contracts/Contrato/00037%2F2025> <http://example.org/contracts#valorGlobal> "1458080.75"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000752> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/12309446000181> .
+<http://example.org/contracts/Contrato/00022%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/19259573300> .
+<http://example.org/contracts/Contrato/00021%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000385> <http://example.org/contracts#valorGlobal> "55000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000909> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000483> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000339> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/36280886000111> .
+<http://example.org/contracts/Contrato/00015%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07663719000151> .
+<http://example.org/contracts/Supplier/50116864000141> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000267> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/43504849000105> .
+<http://example.org/contracts/Contrato/2025NE000914> <http://example.org/contracts#numeroContrato> "2025NE000914" .
+<http://example.org/contracts/Contrato/2025NE000736> <http://example.org/contracts#valorGlobal> "7430.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/30115422000173> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ASSOCIACAO BRASILEIRA DE ENGENHARIA DE PRODUCAO" .
+<http://example.org/contracts/Contrato/2025NE000859> <http://example.org/contracts#valorGlobal> "914.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00037%2F2025> <http://example.org/contracts#numeroContrato> "00037/2025" .
+<http://example.org/contracts/Contrato/00007%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/03508097000136> <http://example.org/contracts#nomeRazaoSocialFornecedor> "REDE NACIONAL DE ENSINO E PESQUISA - RNP" .
+<http://example.org/contracts/Contrato/2025NE000837> <http://example.org/contracts#numeroContrato> "2025NE000837" .
+<http://example.org/contracts/Contrato/00020%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000613> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000503> <http://example.org/contracts#numeroContrato> "2025NE000503" .
+<http://example.org/contracts/Contrato/2025NE000763> <http://example.org/contracts#valorGlobal> "4800.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00003%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000483> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/36280886000111> .
+<http://example.org/contracts/Supplier/37869010000178> <http://example.org/contracts#nomeRazaoSocialFornecedor> "FUNDACAO DE APOIO A CIENCIA, CULTURA, ESTUDOS E PESQUISAS (FACEP)" .
+<http://example.org/contracts/Supplier/13499467000170> <http://example.org/contracts#nomeRazaoSocialFornecedor> "BIOTEC CONTROLE AMBIENTAL LTDA" .
+<http://example.org/contracts/Contrato/2025NE000613> <http://example.org/contracts#numeroContrato> "2025NE000613" .
+<http://example.org/contracts/Contrato/00028%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00034%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000790> <http://example.org/contracts#numeroContrato> "2025NE000790" .
+<http://example.org/contracts/Contrato/00006%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07191406000148> .
+<http://example.org/contracts/Contrato/2025NE000156> <http://example.org/contracts#valorGlobal> "11700.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00008%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00041%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Supplier/23492879000131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/04602789000101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000300> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/32469869000176> .
+<http://example.org/contracts/Contrato/00015%2F2025> <http://example.org/contracts#valorGlobal> "957426.76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00023%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000589> <http://example.org/contracts#numeroContrato> "2025NE000589" .
+<http://example.org/contracts/Contrato/2025NE000579> <http://example.org/contracts#numeroContrato> "2025NE000579" .
+<http://example.org/contracts/Contrato/2025NE000721> <http://example.org/contracts#numeroContrato> "2025NE000721" .
+<http://example.org/contracts/Supplier/53254670000109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00007%2F2025> <http://example.org/contracts#valorGlobal> "1500000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/04074457000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000269> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/33587022000159> .
+<http://example.org/contracts/Supplier/10661512000152> <http://example.org/contracts#nomeRazaoSocialFornecedor> "PISCIS INDUSTRIA E COMERCIO LTDA" .
+<http://example.org/contracts/Supplier/14283887000187> <http://example.org/contracts#nomeRazaoSocialFornecedor> "CONSTRUTORA FEITOSA LTDA" .
+<http://example.org/contracts/Supplier/00449079000132> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00034%2F2025> <http://example.org/contracts#valorGlobal> "1062500.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/53588462000138> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000621> <http://example.org/contracts#valorGlobal> "114000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000801> <http://example.org/contracts#valorGlobal> "526.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00016%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07817778000137> .
+<http://example.org/contracts/Contrato/00033%2F2025> <http://example.org/contracts#valorGlobal> "3729840.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00026%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00013%2F2025> <http://example.org/contracts#valorGlobal> "179350000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000572> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/01914765000108> .
+<http://example.org/contracts/Contrato/2025NE000502> <http://example.org/contracts#valorGlobal> "5711.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/29978236000189> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00042%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/08407726000155> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000339> <http://example.org/contracts#numeroContrato> "2025NE000339" .
+<http://example.org/contracts/Contrato/00008%2F2025> <http://example.org/contracts#valorGlobal> "123600.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000366> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/54416857000116> .
+<http://example.org/contracts/Contrato/2025NE000510> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07737878000153> .
+<http://example.org/contracts/Contrato/00027%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00025%2F2025> <http://example.org/contracts#valorGlobal> "820800.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/11638690000125> <http://example.org/contracts#nomeRazaoSocialFornecedor> "CONSTRUTORA ASTRAL LTDA" .
+<http://example.org/contracts/Contrato/2025NE000436> <http://example.org/contracts#valorGlobal> "1419.76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00046%2F2025> <http://example.org/contracts#valorGlobal> "1101415.15"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/43843358000350> <http://example.org/contracts#nomeRazaoSocialFornecedor> "AIR PRODUCTS BRASIL LTDA." .
+<http://example.org/contracts/Supplier/22569484000127> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/28933805000107> <http://example.org/contracts#nomeRazaoSocialFornecedor> "INSPIRE DISTRIBUICAO E REPRESENTACAO LTDA." .
+<http://example.org/contracts/Contrato/2025NE000759> <http://example.org/contracts#numeroContrato> "2025NE000759" .
+<http://example.org/contracts/Supplier/07663719000151> <http://example.org/contracts#nomeRazaoSocialFornecedor> "FUNDACAO DEMOCRITO ROCHA" .
+<http://example.org/contracts/Contrato/00047%2F2025> <http://example.org/contracts#numeroContrato> "00047/2025" .
+<http://example.org/contracts/Contrato/00036%2F2025> <http://example.org/contracts#valorGlobal> "32212046.14"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000365> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000745> <http://example.org/contracts#valorGlobal> "4983.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000795> <http://example.org/contracts#valorGlobal> "3045.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/10744098000145> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00049%2F2025> <http://example.org/contracts#valorGlobal> "951666.67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00046%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/05330436000162> .
+<http://example.org/contracts/Supplier/08886401000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000787> <http://example.org/contracts#numeroContrato> "2025NE000787" .
+<http://example.org/contracts/Supplier/07191406000148> <http://example.org/contracts#nomeRazaoSocialFornecedor> "FUNDACAO CEARENSE DE METEOROLOGIA E RECURSOS HIDRICOS" .
+<http://example.org/contracts/Contrato/00009%2F2025> <http://example.org/contracts#valorGlobal> "5126238.91"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00013%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/29978236000189> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ASSOCIACAO NAC DE POS GRADUACAO E PESQ CIENCIAS SOCIAIS" .
+<http://example.org/contracts/Contrato/2025NE000348> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/02482141000113> .
+<http://example.org/contracts/Supplier/07875818000105> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000422> <http://example.org/contracts#numeroContrato> "2025NE000422" .
+<http://example.org/contracts/Supplier/32163711000173> <http://example.org/contracts#nomeRazaoSocialFornecedor> "MR COMERCIO DE ARTIGOS DE PAPELARIA LTDA" .
+<http://example.org/contracts/Contrato/2025NE000542> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000332> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000656> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/36280886000111> .
+<http://example.org/contracts/Supplier/04958321000154> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000745> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/32449467000100> .
+<http://example.org/contracts/Supplier/23460299000162> <http://example.org/contracts#nomeRazaoSocialFornecedor> "OK DENTAL COMERCIO DE MATERIAIS ODONTO MEDICO E HOSPITALAR LTDA." .
+<http://example.org/contracts/Contrato/2025NE000422> <http://example.org/contracts#valorGlobal> "400.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/40411391000151> <http://example.org/contracts#nomeRazaoSocialFornecedor> "40.411.391 EDER FERNANDO DE SOUSA" .
+<http://example.org/contracts/Contrato/2025NE000800> <http://example.org/contracts#numeroContrato> "2025NE000800" .
+<http://example.org/contracts/Contrato/2025NE000112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00009%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/59594498000100> .
+<http://example.org/contracts/Contrato/2025NE000390> <http://example.org/contracts#valorGlobal> "6806.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00049%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/31302808000157> .
+<http://example.org/contracts/Contrato/2025NE000388> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00045%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00024%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07387343000108> .
+<http://example.org/contracts/Supplier/01914765000108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000423> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08407726000155> .
+<http://example.org/contracts/Contrato/2025NE000451> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/10661512000152> .
+<http://example.org/contracts/Contrato/00026%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/12208466000166> .
+<http://example.org/contracts/Contrato/00032%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00043%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/33587022000159> <http://example.org/contracts#nomeRazaoSocialFornecedor> "PCAT COMERCIO DE MATERIAL MEDICO - HOSPITALAR LTDA" .
+<http://example.org/contracts/Supplier/13859951000162> <http://example.org/contracts#nomeRazaoSocialFornecedor> "CONNECT ON MARKETING DE EVENTOS LTDA" .
+<http://example.org/contracts/Contrato/00035%2F2025> <http://example.org/contracts#valorGlobal> "118800.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000388> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/36280886000111> .
+<http://example.org/contracts/Supplier/50567060000169> <http://example.org/contracts#nomeRazaoSocialFornecedor> "DENTAL IPO LTDA" .
+<http://example.org/contracts/Contrato/2025NE000452> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000796> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00019%2F2025> <http://example.org/contracts#numeroContrato> "00019/2025" .
+<http://example.org/contracts/Supplier/54416857000116> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/29868059000188> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00011%2F2025> <http://example.org/contracts#valorGlobal> "644600.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00008%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000302> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/22077847000107> .
+<http://example.org/contracts/Contrato/00013%2F2025> <http://example.org/contracts#numeroContrato> "00013/2025" .
+<http://example.org/contracts/Contrato/2025NE000116> <http://example.org/contracts#valorGlobal> "13036.2"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00023%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00021%2F2025> <http://example.org/contracts#numeroContrato> "00021/2025" .
+<http://example.org/contracts/Contrato/2025NE000740> <http://example.org/contracts#valorGlobal> "6239.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000502> <http://example.org/contracts#numeroContrato> "2025NE000502" .
+<http://example.org/contracts/Contrato/2025NE000514> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/32163711000173> .
+<http://example.org/contracts/Contrato/2025NE000728> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/40061199000182> <http://example.org/contracts#nomeRazaoSocialFornecedor> "DIONAL DISTRIBUIDORA DE PRODUTOS LTDA" .
+<http://example.org/contracts/Contrato/2025NE000446> <http://example.org/contracts#numeroContrato> "2025NE000446" .
+<http://example.org/contracts/Contrato/00009%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000279> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/03444532000106> .
+<http://example.org/contracts/Contrato/2025NE000116> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/28857335000140> .
+<http://example.org/contracts/Contrato/00004%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/14283887000187> .
+<http://example.org/contracts/Contrato/2025NE000436> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/19259573300> <http://example.org/contracts#nomeRazaoSocialFornecedor> "FRANCISCA GRACAS DE OLIVEIRA MEDEIROS" .
+<http://example.org/contracts/Contrato/2025NE000798> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/09168704000142> <http://example.org/contracts#nomeRazaoSocialFornecedor> "EMPRESA BRASIL DE COMUNICACAO S.A. - EBC" .
+<http://example.org/contracts/Contrato/2025NE000113> <http://example.org/contracts#valorGlobal> "7880.25"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000345> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00050%2F2025> <http://example.org/contracts#valorGlobal> "25459.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000631> <http://example.org/contracts#numeroContrato> "2025NE000631" .
+<http://example.org/contracts/Supplier/03804327000104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000355> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000369> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/20402099000165> .
+<http://example.org/contracts/Contrato/00021%2F2025> <http://example.org/contracts#valorGlobal> "28529.16"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/14566765000106> <http://example.org/contracts#nomeRazaoSocialFornecedor> "CRH EQUIPAMENTOS DE SEGURANCA LTDA" .
+<http://example.org/contracts/Supplier/19259573300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00082%2F2024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00018%2F2025> <http://example.org/contracts#valorGlobal> "240000.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000765> <http://example.org/contracts#numeroContrato> "2025NE000765" .
+<http://example.org/contracts/Contrato/00019%2F2025> <http://example.org/contracts#valorGlobal> "5962005.84"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000909> <http://example.org/contracts#valorGlobal> "1849.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000503> <http://example.org/contracts#valorGlobal> "8437.63"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000114> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00004%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Supplier/12904870000174> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000851> <http://example.org/contracts#valorGlobal> "27872.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000113> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000667> <http://example.org/contracts#numeroContrato> "2025NE000667" .
+<http://example.org/contracts/Contrato/00002%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Supplier/37869010000178> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000655> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/36280886000111> .
+<http://example.org/contracts/Contrato/2025NE000572> <http://example.org/contracts#numeroContrato> "2025NE000572" .
+<http://example.org/contracts/Supplier/03444532000106> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000278> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/33587022000159> .
+<http://example.org/contracts/Contrato/00027%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/03804327000104> .
+<http://example.org/contracts/Contrato/2025NE000368> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000800> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/30479645000110> .
+<http://example.org/contracts/Contrato/2025NE000700> <http://example.org/contracts#numeroContrato> "2025NE000700" .
+<http://example.org/contracts/Contrato/00028%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07121465000140> .
+<http://example.org/contracts/Contrato/2025NE000294> <http://example.org/contracts#numeroContrato> "2025NE000294" .
+<http://example.org/contracts/Contrato/2025NE000334> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/19231616000100> .
+<http://example.org/contracts/Contrato/00045%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/00016%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07875818000105> .
+<http://example.org/contracts/Contrato/00098%2F2024> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000369> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/20251882000175> <http://example.org/contracts#nomeRazaoSocialFornecedor> "FORUM NACIONAL DE PRO-REITORES DE PESQUISA E POS-GRADUACAO DAS INSTITUICOES DE E" .
+<http://example.org/contracts/Contrato/2025NE000341> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000242> <http://example.org/contracts#numeroContrato> "2025NE000242" .
+<http://example.org/contracts/Contrato/2025NE000811> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/07135668000195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/21237303000100> <http://example.org/contracts#nomeRazaoSocialFornecedor> "AGRO CONSULTORIA LTDA" .
+<http://example.org/contracts/Contrato/00045%2F2025> <http://example.org/contracts#numeroContrato> "00045/2025" .
+<http://example.org/contracts/Contrato/2025NE000115> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/22077847000107> .
+<http://example.org/contracts/Contrato/2025NE000341> <http://example.org/contracts#valorGlobal> "620.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000289> <http://example.org/contracts#numeroContrato> "2025NE000289" .
+<http://example.org/contracts/Contrato/2025NE000740> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00005%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000728> <http://example.org/contracts#valorGlobal> "41168.95"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00003%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00012%2F2025> <http://example.org/contracts#valorGlobal> "682124.7"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000576> <http://example.org/contracts#numeroContrato> "2025NE000576" .
+<http://example.org/contracts/Contrato/00011%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/03508097000136> .
+<http://example.org/contracts/Supplier/20501854000169> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000450> <http://example.org/contracts#valorGlobal> "6364.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000344> <http://example.org/contracts#valorGlobal> "7520.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/36280886000111> <http://example.org/contracts#nomeRazaoSocialFornecedor> "SP MIDIA DIGITAL & COMUNICACAO VISUAL LTDA" .
+<http://example.org/contracts/Contrato/2025NE000721> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/29978236000189> .
+<http://example.org/contracts/Contrato/2025NE000311> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/20784313000195> <http://example.org/contracts#nomeRazaoSocialFornecedor> "RM COMERCIO DE MERCADORIAS E MATERIAIS LTDA" .
+<http://example.org/contracts/Contrato/00011%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00014%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Contrato/2025NE000745> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00037%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000811> <http://example.org/contracts#valorGlobal> "1774.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000338> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000906> <http://example.org/contracts#numeroContrato> "2025NE000906" .
+<http://example.org/contracts/Contrato/00038%2F2025> <http://example.org/contracts#valorGlobal> "53091.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000113> <http://example.org/contracts#numeroContrato> "2025NE000113" .
+<http://example.org/contracts/Contrato/2025NE000542> <http://example.org/contracts#numeroContrato> "2025NE000542" .
+<http://example.org/contracts/Contrato/00036%2F2025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00017%2F2025> <http://example.org/contracts#valorGlobal> "1668900.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000823> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/02482141000113> .
+<http://example.org/contracts/Contrato/2025NE000497> <http://example.org/contracts#valorGlobal> "2750.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/09168704000142> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000801> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/12208466000166> <http://example.org/contracts#nomeRazaoSocialFornecedor> "CONSÓRCIO PÚBLICO DE SAÚDE DA MICRORREGIÃO DE SOBRAL - CPSMS" .
+<http://example.org/contracts/Contrato/2025NE000791> <http://example.org/contracts#valorGlobal> "1980.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00042%2F2025> <http://example.org/contracts#numeroContrato> "00042/2025" .
+<http://example.org/contracts/Contrato/2025NE000896> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000766> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/26644910000109> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00002%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/23492879000131> .
+<http://example.org/contracts/Contrato/00009%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000366> <http://example.org/contracts#valorGlobal> "7131.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000295> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000297> <http://example.org/contracts#valorGlobal> "5362.5"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00024%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/37869010000178> .
+<http://example.org/contracts/Supplier/28591670000149> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/40061199000182> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000749> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/52996455000102> .
+<http://example.org/contracts/Contrato/2025NE000791> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/51785959000110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/00018%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/02437460000107> .
+<http://example.org/contracts/Contrato/2025NE000823> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00023%2F2025> <http://example.org/contracts#valorGlobal> "5442210.57"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000825> <http://example.org/contracts#valorGlobal> "3169.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000589> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000655> <http://example.org/contracts#valorGlobal> "74890.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00041%2F2025> <http://example.org/contracts#numeroContrato> "00041/2025" .
+<http://example.org/contracts/Contrato/2025NE000736> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/40061199000182> .
+<http://example.org/contracts/Contrato/2025NE000333> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000705> <http://example.org/contracts#numeroContrato> "2025NE000705" .
+<http://example.org/contracts/Contrato/2025NE000667> <http://example.org/contracts#valorGlobal> "2040.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000501> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/10661512000152> .
+<http://example.org/contracts/Contrato/2025NE000514> <http://example.org/contracts#numeroContrato> "2025NE000514" .
+<http://example.org/contracts/Contrato/2025NE000446> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/08885380000109> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ANDRE PANINI ALBISSU" .
+<http://example.org/contracts/Supplier/01612710000135> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000277> <http://example.org/contracts#valorGlobal> "1789.03"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/32163711000173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Supplier/13395341000155> <http://example.org/contracts#nomeRazaoSocialFornecedor> "COMERCIAL EJM MEDSERVICE LTDA" .
+<http://example.org/contracts/Contrato/00009%2F2025> <http://example.org/contracts#valorGlobal> "113931652.57"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/41428781000105> <http://example.org/contracts#nomeRazaoSocialFornecedor> "GESTALK TECNOLOGIA PARA INCLUSAO SOCIAL LTDA" .
+<http://example.org/contracts/Contrato/2025NE000235> <http://example.org/contracts#valorGlobal> "15308.21"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/43504849000105> <http://example.org/contracts#nomeRazaoSocialFornecedor> "MEDICAL & SAUDE PRODUTOS HOSPITALARES LTDA" .
+<http://example.org/contracts/Contrato/00036%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/32410406000139> .
+<http://example.org/contracts/Contrato/2025NE000943> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/20251882000175> .
+<http://example.org/contracts/Supplier/22077847000107> <http://example.org/contracts#nomeRazaoSocialFornecedor> "JOSE DANTAS DINIZ FILHO" .
+<http://example.org/contracts/Contrato/2025NE000368> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/37117510000153> .
+<http://example.org/contracts/Contrato/00004%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000801> <http://example.org/contracts#numeroContrato> "2025NE000801" .
+<http://example.org/contracts/Supplier/20784313000195> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000425> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/53568001000101> .
+<http://example.org/contracts/Supplier/07663719000151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000795> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000782> <http://example.org/contracts#valorGlobal> "1091.8"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000798> <http://example.org/contracts#valorGlobal> "2100.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/00572276000144> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000621> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000501> <http://example.org/contracts#valorGlobal> "53314.75"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/00010%2F2025> <http://example.org/contracts#numeroContrato> "00010/2025" .
+<http://example.org/contracts/Contrato/2025NE000795> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/68905074000100> .
+<http://example.org/contracts/Supplier/12991532000117> <http://example.org/contracts#nomeRazaoSocialFornecedor> "JUARES LIMA DOS SANTOS" .
+<http://example.org/contracts/Supplier/08918421000108> <http://example.org/contracts#nomeRazaoSocialFornecedor> "FUNDACAO DE APOIO A SERVICOS TECNICOS, ENSINO E FOMENTO A PESQUISAS - FUNDACAO A" .
+<http://example.org/contracts/Contrato/2025NE000630> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00019%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/08918421000108> .
+<http://example.org/contracts/Supplier/32410406000139> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ENGNORD CONSTRUCOES E SERVICOS LTDA" .
+<http://example.org/contracts/Supplier/50381955000104> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/03825354000163> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE000797> <http://example.org/contracts#numeroContrato> "2025NE000797" .
+<http://example.org/contracts/Supplier/32449467000100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Contrato/2025NE001004> <http://example.org/contracts#valorGlobal> "1100.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Supplier/04964024000111> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Supplier> .
+<http://example.org/contracts/Supplier/29212628000132> <http://example.org/contracts#nomeRazaoSocialFornecedor> "ASSOCIACAO BRASILEIRA DE EDUCACAO MEDICA" .
+<http://example.org/contracts/Contrato/2025NE000572> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/00010%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/07135668000195> .
+<http://example.org/contracts/Supplier/02437460000107> <http://example.org/contracts#nomeRazaoSocialFornecedor> "INSTITUTO DE PESQUISAS ELDORADO" .
+<http://example.org/contracts/Contrato/2025NE000425> <http://example.org/contracts#valorGlobal> "18696.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000752> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/contracts#Contract> .
+<http://example.org/contracts/Contrato/2025NE000773> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/33587022000159> .
+<http://example.org/contracts/Contrato/00002%2F2025> <http://example.org/contracts#valorGlobal> "0.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://example.org/contracts/Contrato/2025NE000156> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/41760180000197> .
+<http://example.org/contracts/Contrato/00047%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/05330436000162> .
+<http://example.org/contracts/Contrato/00043%2F2025> <http://example.org/contracts#hasSupplier> <http://example.org/contracts/Supplier/05330436000162> .
