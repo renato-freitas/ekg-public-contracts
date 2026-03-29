@@ -2,6 +2,7 @@ import os
 import csv, json
 import pandas as pd
 from crewai.tools import tool
+import morph_kgc
 
 ####################################################
 ################## PUBLISING TEAM ##################
@@ -96,7 +97,36 @@ def get_ontology_file(path):
         # We pass the raw JSON so the LLM has full access to metadata
         return json.dumps(data, indent=2, ensure_ascii=False)
 
-	
+@tool("morph_kgc_tool")
+def morph_kgc_tool(mapping_path: str, data_path: str, output_path: str):
+    """
+    Executa o Morph-KGC para triplificação. 
+    mapping_path: Caminho para o arquivo .ttl gerado pelo MapGen.
+    data_path: Caminho para o arquivo de dados (ex: .csv).
+    output_path: Caminho onde o arquivo .nt será salvo.
+    """
+    config_setup = f"""
+    [CONFIGURATION]
+    output_format: N-TRIPLES
+    [DataSource1]
+    mappings: {mapping_path}
+    file_path: {data_path}
+    """
+    resultado = morph_kgc.materialize(config_setup)
+    try:
+        #resultado = morph_kgc.materialize(config_setup)
+        #resultado.serialize(destination="resultado_final1.nt", format="nt")
+        # Lógica de salvamento que você validou
+        if hasattr(resultado, 'serialize'):
+            resultado.serialize(destination=output_path, format="nt")
+        else:
+            with open(output_path, "w", encoding="utf-8") as f:
+                for content in resultado.values():
+                    f.write(content)
+        
+        return f"Sucesso! O arquivo RDF foi criado fisicamente em: {os.path.abspath(output_path)}"
+    except Exception as e:
+        return f"Erro durante a execução do Morph-KGC: {str(e)}"	
 ######################################################
 ################## INTEGRATION TEAM ##################
 ######################################################
