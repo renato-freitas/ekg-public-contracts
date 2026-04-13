@@ -1,0 +1,222 @@
+@prefix agg: <http://jena.apache.org/ARQ/function/aggregate#> .
+@prefix : <urn:webprotege:ontology:4cb9ce59-34b4-4e84-9f7d-eb63d259ded2#> .
+@prefix mod: <http://www.isibang.ac.in/ns/mod#> .
+@prefix mls: <http://www.w3.org/ns/mls#> .
+@prefix duv: <http://www.w3.org/ns/duv#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix geof: <http://www.opengis.net/def/function/geosparql/> .
+@prefix sfz: <http://www.sefaz.ma.gov.br/ontology/> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix feac: <http://semantic.arida.ufc.br/ontology/feac/> .
+@prefix spif: <http://spinrdf.org/spif#> .
+@prefix path: <http://www.ontotext.com/path#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix daq: <http://purl.org/eis/vocab/daq#> .
+@prefix apf: <http://jena.apache.org/ARQ/property#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rep: <http://www.openrdf.org/config/repository#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix voag: <http://voag.linkedmodel.org/schema/voag#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix drm: <http://vocab.data.gov/def/drm#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vmv: <http://www.mashup.sefaz.ma.gov.br/ontology/> .
+@prefix wgs: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix list: <http://jena.apache.org/ARQ/list#> .
+@prefix geoext: <http://rdf.useekm.com/ext#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix math: <http://www.w3.org/2005/xpath-functions/math> .
+@prefix cpcollection: <http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix sail: <http://www.openrdf.org/config/sail#> .
+@prefix mekg: <http://www.aria.ufc.br/resource/kg-metadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix array: <http://www.w3.org/2005/xpath-functions/array> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix map: <http://www.w3.org/2005/xpath-functions/map> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sr: <http://www.openrdf.org/config/repository/sail#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix afn: <http://jena.apache.org/ARQ/function#> .
+@prefix cp: <http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#> .
+@prefix vskg: <http://www.arida.ufc.br/VSKG#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ofn: <http://www.ontotext.com/sparql/functions/> .
+@prefix graphdb: <http://www.ontotext.com/config/graphdb#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix omgeo: <http://www.ontotext.com/owlim/geo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix vekg: <http://www.arida.ufc.br/VEKG#> .
+@prefix vosv: <http://www.arida.ufc.br/vosv#> .
+@prefix ex: <http://example.org/ontology#> .
+@base <http://www.arida.ufc.br/resource/metadata/> .
+
+
+
+<https://graphdb.arida.site/repositories/ekg_public_contracts/rdf-graphs/KG_METADATA> {
+
+	###########################################
+	###  INSTANCIANDO AS VISÕES EXPORTADAS  ###
+	### (RDFView)-isPartOf->(SemanticView)  ###
+	###########################################
+	<ev/contratos_cgu> a vekg:ExportedView ;
+		rdfs:label "EV Contratos_cgu"@en, 
+			"VE Contratos_cgu"@pt;
+		dc:description "Exports Contratos_cgu data in RDF format, enriched with the semantic view ontology."@en,
+			"Exporta dados da Contratos_cgu em formato RDF, enriquecidos com a ontologia da visão semântica."@pt;
+		vekg:createdAt "2025-11-22 08:10:14.072914" ;
+		schema:isPartOf <sv/public_contracts> ;
+		vekg:hasSpecification <evspec/contratos_cgu> ;
+		vekg:hasDataGraph <evdatagraph/contratos_cgu> 
+	.
+	<ev/sancionados_ceis> a vekg:ExportedView ;
+		rdfs:label "EV sancionados_ceis"@en, 
+			"VE sancionados_ceis"@pt;
+		dc:description "Exports sancionados_ceis data in RDF format enriched with semantics."@en,
+			"Exporta dados da sancionados_ceis em formato RDF enriquecidos com semântica."@pt;
+		vekg:createdAt "2025-11-21 15:17:14.072914" ;
+		schema:isPartOf <sv/public-contracts> ;
+		vekg:hasSpecification <evspec/sancionados_ceis> ;
+		vekg:hasDataGraph <evdatagraph/sancionados_ceis>
+	.
+	####################################################################
+	###   INSTANCIANDO AS ESPECIFICAÇÕES DAS VISÕES EXPORTADAS       ###
+	###   (ExportedView)-vekg:hasSpecification->(EVSpec)             ###
+	####################################################################
+	<evspec/contratos_cgu> a vekg:ExportedViewSpecification ;
+		rdfs:label "EV Contratos_cgu Specification"@en, 
+			"Especificação da VE Contratos_cgu"@pt;
+		dc:description "Contains the metadata of the artifacts that make up the exported contratos_cgu view."@en,
+			"Contém os metadados dos artefatos que compõem a visão exportada contratos_cgu."@pt;
+		vekg:createdAt "2025-11-22 08:11:14.072914" ;
+		vekg:hasDataSource <datasource/contratos_cgu> ;
+		vekg:hasOntology <ontology/contratos_cgu> ;
+		vekg:hasMappings <mappings/contratos_cgu> ;
+		vekg:isPartOf <svspec/ekg_public_contract>
+	.
+	<evspec/sancionados_ceis> a vekg:ExportedViewSpecification ;
+		rdfs:label "EV_sancionados_ceis Specification"@en, 
+			"Especificação da VE_sancionados_ceis"@pt;
+		dc:description "Contains the specifications for the sancionados_ceis exported semantic view."@en,
+			"Contém as especificações da visão semântica exportada sancionados_ceis."@pt;
+		vekg:createdAt "2024-11-14 17:12:03.072914" ;
+		vekg:hasDataSource <datasource/sancionados_ceis> ;
+		vekg:hasOntology <ontology/sancionados_ceis> ;
+		vekg:hasMappings <mappings/sancionados_ceis> ;
+		vekg:isPartOf <svspec/EKG_MUSICA_BR>
+	.
+
+	####################################################################
+	###           INSTANCIANDO AS PROVENIÊNCIAS                      ###
+	###       (vosvExportedView)-vosv:hasDataGraph->(vosv:DataGraph) ###
+	####################################################################
+	<evdatagraph/contratos_cgu> a vekg:DataGraph, prov:Entity ;
+		rdfs:label "EV contratos_cgu Data Graph"@en, 
+			"Grafo de dados da VE contratos_cgu"@pt ;
+		sd:name "https://graphdb.arida.site/repositories/ekg_public_contract/rdf-graphs/KG_contratos_cgu" ;
+		prov:wasGeneratedBy <EVTransformation/contratos_cgu> ;
+		prov:wasDerivedFrom <datasource/contratos_cgu>
+	.
+	<evdatagraph/sancionados_ceis> a vekg:DataGraph, prov:Entity ;
+		rdfs:label "EV_sancionados_ceis Data Graph"@en, 
+			"Grafo de dados da VE_sancionados_ceis"@pt;
+		sd:name "https://graphdb.arida.site/repositories/ekg_public_contract/rdf-graphs/KG_sancionados_ceis" ;
+		prov:wasGeneratedBy <EVTransformation/sancionados_ceis> ;
+		prov:wasDerivedFrom <datasource/sancionados_ceis>
+	.
+
+	<EVTransformation/contratos_cgu> a prov:Activity ;
+		rdfs:label "EV_contratos_cgu Transformation"@en, 
+			"Transformação da VE_contratos_cgu"@pt ;
+		prov:used <datasource/contratos_cgu> ;
+		prov:hadPlan <mappings/contratos_cgu> ;
+		prov:endedAtTime "2024-11-14T15:20:14Z"^^xsd:dateTime 
+	.
+	<EVTransformation/sancionados_ceis> a prov:Activity ;
+		rdfs:label "EV_sancionados_ceis Transformation"@en, 
+			"Transformação da VE_sancionados_ceis"@pt;
+		prov:used <datasource/sancionados_ceis> ;
+		prov:hadPlan <mappings/sancionados_ceis> ;
+		prov:endedAtTime "2024-11-14T15:17:14Z"^^xsd:dateTime 
+	.
+
+
+
+
+
+	####################################################################
+	###   INSTANCIANDO ONTOLOGIAS DAS VISÕES EXPORTADAS              ###
+	###   (EVSpec)-hasOntology->(vekg:EVOntology)                    ###
+	####################################################################
+	<ontology/contratos_cgu> a vekg:EVOntology ;
+		rdfs:label 
+			"Ontologia da VE_contratos_cgu"@pt, 
+			"Ontology of EV_contratos_cgu"@en ;
+		dc:description 
+			"Contém as classes e propriedades exclusivas da visão exportada contratos_cgu"@pt,
+			"Contains the classes and properties unique to the exported contratos_cgu view"@en ;
+		vekg:hasClass 
+			schema:Contract,     # Contract
+			schema:Organization, # PublicOrganization
+			foaf:Group,          # ManagementUnit
+			ex:Supplier;         # Suplier
+		vekg:hasProperty 
+			ex:hasPublicOrganization, # hasPublicOrganization
+			schema:department,        # hasManagementUnit
+			schema:supplier,          # hasSupplier
+			dc:identifier,    # codigoOrgao, codigoUnidadeGestora, numeroContrato, processo
+			schema:name,      # nomeOrgao, nomeUnidadeGestora, nomeRazaoSocialFornecedor
+			ex:cpfcnpj,       # niFornecedor
+			dc:description,   # objeto
+			schema:startDate, # dataVigenciaInicial
+			schema:endDate,   # dataVigenciaFinal
+			schema:price      # valorGlobal
+	.
+	<ontology/sancionados_ceis> a vekg:EVOntology ;
+		rdfs:label 
+			"Ontologia da VE_sancionados_ceis"@pt, 
+			"Ontology of EV_sancionados_ceis"@en ;
+		dc:description 
+			"Contém as classes e propriedades exclusivas da visão exportada sancionados_ceis"@pt,
+			"Contains the classes and properties unique to the exported sancionados_ceis view"@en ;
+		vekg:hasClass 
+			schema:Organization,           # SanctionedEntity
+			schema:GovernmentOrganization, # SanctioningAuthority
+			ex:Sanction;                   # Sanction
+		vekg:hasProperty 
+			foaf:maker,    # hasSanctioningAuthority
+			ex:hasSanction, # hasSanction
+			ex:cpfcnpj,    # CNPJCPF
+			schema:name,   # name
+			schema:addressRegion, # state
+			schema:category,      # sanctionCategory
+			schema:startDate,     # initialDate
+			schema:endDate,       # finalDate
+			schema:datePublished,        # publicationDate
+			schema:priceSpecification,   # fineValue
+			schema:quantity              # quantity
+	.
+
+	schema:Contract     vekg:hasOntology <ontology/contratos_cgu> .
+	schema:Organization vekg:hasOntology <ontology/contratos_cgu> .
+	foaf:Group          vekg:hasOntology <ontology/contratos_cgu> .
+	ex:Supplier         vekg:hasOntology <ontology/contratos_cgu> .
+	
+	schema:Organization           vekg:hasOntology <ontology/sancionados_ceis> .
+	schema:GovernmentOrganization vekg:hasOntology <ontology/sancionados_ceis> .
+	ex:Sanction                   vekg:hasOntology <ontology/sancionados_ceis> .
+
+}

@@ -59,120 +59,79 @@
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
 @prefix omgeo: <http://www.ontotext.com/owlim/geo#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix vekg: <http://www.arida.ufc.br/VEKG#> .
+# @prefix vosv: <http://www.arida.ufc.br/VEKG#> .
+@prefix vosv: <http://www.arida.ufc.br/vosv#> .
 @prefix ex: <http://example.org/ontology#> .
 @base <http://www.arida.ufc.br/resource/metadata/> .
 
 
-
 <https://graphdb.arida.site/repositories/ekg_public_contracts/rdf-graphs/KG_METADATA> {
 
-	###############################################
-	###  INSTANCIANDO AS VISÕES EXPORTADAS      ###
-	### (ExportedView)-isPartOf->(SemanticView) ###
-	###############################################
-	<EV/contratos_cgu> a vekg:ExportedView ;
+	################################################
+	### (ExportedView)-isPartOf->(SemanticView)  ###
+	################################################
+	<ev/contratos_cgu> a vosv:ExportedView ;
 		rdfs:label "EV Contratos_cgu"@en, 
 			"VE Contratos_cgu"@pt;
 		dc:description "Exports Contratos_cgu data in RDF format, enriched with the semantic view ontology."@en,
 			"Exporta dados da Contratos_cgu em formato RDF, enriquecidos com a ontologia da visão semântica."@pt;
-		vekg:createdAt "2025-11-22 08:10:14.072914" ;
-		schema:isPartOf <SV/public_contracts> ;
-		vekg:hasSpecification <EVSpec/contratos_cgu> ;
-		vekg:hasDataGraph <EVDataGraph/contratos_cgu> 
+		vosv:createdAt "2025-11-22 08:10:14.072914" ;
+		schema:isPartOf <sv/public_contracts> ;
+		vosv:hasSpecification <evspec/contratos_cgu> ;
+		vosv:hasDataGraph <evdatagraph/contratos_cgu> 
 	.
-	<EV/sancionados_ceis> a vekg:ExportedView ;
-		rdfs:label "EV sancionados_ceis"@en, 
-			"VE sancionados_ceis"@pt;
-		dc:description "Exports sancionados_ceis data in RDF format enriched with semantics."@en,
-			"Exporta dados da sancionados_ceis em formato RDF enriquecidos com semântica."@pt;
-		vekg:createdAt "2025-11-21 15:17:14.072914" ;
-		schema:isPartOf <SV/public-contracts> ;
-		vekg:hasSpecification <EVSpec/sancionados_ceis> ;
-		vekg:hasDataGraph <EVDataGraph/sancionados_ceis>
-	.
+	
 	####################################################################
-	###   INSTANCIANDO AS ESPECIFICAÇÕES DAS VISÕES EXPORTADAS       ###
-	###   (ExportedView)-vekg:hasSpecification->(EVSpec)             ###
+	###   (ExportedView)-vosv:hasSpecification->(EVSpec)             ###
 	####################################################################
-	<EVSpec/contratos_cgu> a vekg:ExportedViewSpecification ;
-		rdfs:label "EV Contratos_cgu Specification"@en, 
-			"Especificação da VE Contratos_cgu"@pt;
+	<evspec/contratos_cgu> a vosv:ExportedViewSpecification ;
+		rdfs:label "Specification of contratos_cgu EV"@en, 
+			"Especificação da VE contratos_cgu"@pt;
 		dc:description "Contains the metadata of the artifacts that make up the exported contratos_cgu view."@en,
 			"Contém os metadados dos artefatos que compõem a visão exportada contratos_cgu."@pt;
-		vekg:createdAt "2025-11-22 08:11:14.072914" ;
-		vekg:hasDataSource <DataAsset/contratos_cgu> ;
-		vekg:hasOntology <ontology/contratos_cgu> ;
-		vekg:hasMappings <Mappings/contratos_cgu> ;
-		vekg:isPartOf <SVSpec/ekg_public_contract>
+		vosv:createdAt "2025-11-22 08:11:14.072914" ;
+		vosv:hasDataSource <datasource/contratos_cgu> ;
+		vosv:hasOntology <ontology/contratos_cgu> ;
+		vosv:hasMappings <mappings/contratos_cgu> ;
+		vosv:isPartOf <svspec/ekg_public_contract>
 	.
-	<EVSpec/sancionados_ceis> a vekg:ExportedViewSpecification ;
-		rdfs:label "EV_sancionados_ceis Specification"@en, 
-			"Especificação da VE_sancionados_ceis"@pt;
-		dc:description "Contains the specifications for the sancionados_ceis exported semantic view."@en,
-			"Contém as especificações da visão semântica exportada sancionados_ceis."@pt;
-		vekg:createdAt "2024-11-14 17:12:03.072914" ;
-		vekg:hasDataSource <DataAsset/sancionados_ceis> ;
-		vekg:hasOntology <ontology/sancionados_ceis> ;
-		vekg:hasMappings <Mappings/sancionados_ceis> ;
-		vekg:isPartOf <SVSpec/EKG_MUSICA_BR>
-	.
-
+	
 	####################################################################
 	###           INSTANCIANDO AS PROVENIÊNCIAS                      ###
 	###       (vosvExportedView)-vosv:hasDataGraph->(vosv:DataGraph) ###
 	####################################################################
-	<EVDataGraph/contratos_cgu> a vekg:DataGraph, prov:Entity ;
+	<evdatagraph/contratos_cgu> a vosv:DataGraph, prov:Entity ;
 		rdfs:label "EV contratos_cgu Data Graph"@en, 
 			"Grafo de dados da VE contratos_cgu"@pt ;
 		sd:name "https://graphdb.arida.site/repositories/ekg_public_contract/rdf-graphs/KG_contratos_cgu" ;
-		prov:wasGeneratedBy <EVTransformation/contratos_cgu> ;
-		prov:wasDerivedFrom <DataAsset/contratos_cgu>
+		prov:wasGeneratedBy <evtransformation/contratos_cgu> ;
+		prov:wasDerivedFrom <datasource/contratos_cgu>
 	.
-	<EVDataGraph/sancionados_ceis> a vekg:DataGraph, prov:Entity ;
-		rdfs:label "EV_sancionados_ceis Data Graph"@en, 
-			"Grafo de dados da VE_sancionados_ceis"@pt;
-		sd:name "https://graphdb.arida.site/repositories/ekg_public_contract/rdf-graphs/KG_sancionados_ceis" ;
-		prov:wasGeneratedBy <EVTransformation/sancionados_ceis> ;
-		prov:wasDerivedFrom <DataAsset/sancionados_ceis>
-	.
-
-	<EVTransformation/contratos_cgu> a prov:Activity ;
+	<evtransformation/contratos_cgu> a prov:Activity ;
 		rdfs:label "EV_contratos_cgu Transformation"@en, 
 			"Transformação da VE_contratos_cgu"@pt ;
-		prov:used <DataAsset/contratos_cgu> ;
-		prov:hadPlan <Mappings/contratos_cgu> ;
+		prov:used <datasource/contratos_cgu> ;
+		prov:hadPlan <mappings/contratos_cgu> ;
 		prov:endedAtTime "2024-11-14T15:20:14Z"^^xsd:dateTime 
 	.
-	<EVTransformation/sancionados_ceis> a prov:Activity ;
-		rdfs:label "EV_sancionados_ceis Transformation"@en, 
-			"Transformação da VE_sancionados_ceis"@pt;
-		prov:used <DataAsset/sancionados_ceis> ;
-		prov:hadPlan <Mappings/sancionados_ceis> ;
-		prov:endedAtTime "2024-11-14T15:17:14Z"^^xsd:dateTime 
-	.
-
-
-
-
 
 	####################################################################
 	###   INSTANCIANDO ONTOLOGIAS DAS VISÕES EXPORTADAS              ###
-	###   (EVSpec)-hasOntology->(vekg:EVOntology)                    ###
+	###   (EVSpec)-hasOntology->(vosv:EVOntology)                    ###
 	####################################################################
-	<ontology/contratos_cgu> a vekg:EVOntology ;
+	<ontology/contratos_cgu> a vosv:EVOntology, vosv:DataSourceOntology ;
 		rdfs:label 
-			"Ontologia da VE_contratos_cgu"@pt, 
-			"Ontology of EV_contratos_cgu"@en ;
+			"Ontologia da contratos_cgu"@pt, 
+			"Ontology of contratos_cgu"@en ;
 		dc:description 
 			"Contém as classes e propriedades exclusivas da visão exportada contratos_cgu"@pt,
 			"Contains the classes and properties unique to the exported contratos_cgu view"@en ;
-		vekg:hasClass 
+		vosv:hasClass 
 			schema:Contract,     # Contract
 			schema:Organization, # PublicOrganization
 			foaf:Group,          # ManagementUnit
 			ex:Supplier;         # Suplier
-		vekg:hasProperty 
+		vosv:hasProperty 
 			ex:hasPublicOrganization, # hasPublicOrganization
 			schema:department,        # hasManagementUnit
 			schema:supplier,          # hasSupplier
@@ -184,38 +143,9 @@
 			schema:endDate,   # dataVigenciaFinal
 			schema:price      # valorGlobal
 	.
-	<ontology/sancionados_ceis> a vekg:EVOntology ;
-		rdfs:label 
-			"Ontologia da VE_sancionados_ceis"@pt, 
-			"Ontology of EV_sancionados_ceis"@en ;
-		dc:description 
-			"Contém as classes e propriedades exclusivas da visão exportada sancionados_ceis"@pt,
-			"Contains the classes and properties unique to the exported sancionados_ceis view"@en ;
-		vekg:hasClass 
-			schema:Organization,           # SanctionedEntity
-			schema:GovernmentOrganization, # SanctioningAuthority
-			ex:Sanction;                   # Sanction
-		vekg:hasProperty 
-			foaf:maker,    # hasSanctioningAuthority
-			ex:hasSanction, # hasSanction
-			ex:cpfcnpj,    # CNPJCPF
-			schema:name,   # name
-			schema:addressRegion, # state
-			schema:category,      # sanctionCategory
-			schema:startDate,     # initialDate
-			schema:endDate,       # finalDate
-			schema:datePublished,        # publicationDate
-			schema:priceSpecification,   # fineValue
-			schema:quantity              # quantity
-	.
-
-	schema:Contract     vekg:hasOntology <ontology/contratos_cgu> .
-	schema:Organization vekg:hasOntology <ontology/contratos_cgu> .
-	foaf:Group          vekg:hasOntology <ontology/contratos_cgu> .
-	ex:Supplier         vekg:hasOntology <ontology/contratos_cgu> .
 	
-	schema:Organization           vekg:hasOntology <ontology/sancionados_ceis> .
-	schema:GovernmentOrganization vekg:hasOntology <ontology/sancionados_ceis> .
-	ex:Sanction                   vekg:hasOntology <ontology/sancionados_ceis> .
-
+	schema:Contract     vosv:hasOntology <ontology/contratos_cgu> .
+	schema:Organization vosv:hasOntology <ontology/contratos_cgu> .
+	foaf:Group          vosv:hasOntology <ontology/contratos_cgu> .
+	ex:Supplier         vosv:hasOntology <ontology/contratos_cgu> .
 }
